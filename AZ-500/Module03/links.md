@@ -1,5 +1,5 @@
 
-# AZ-500 - Microsoft Azure Security Technologies ###
+# AZ-500 - Microsoft Azure Security Technologies
 
 ## Module 3 - AZ-500: Secure compute, storage, and databases
 Links that where shared during the course:
@@ -33,7 +33,7 @@ https://learn.microsoft.com/en-us/training/modules/advanced-security-compute/11-
 
 <br>
 
-## Plan and implement security for storage
+### Plan and implement security for storage
 <B>2-1 Azure Storage Explained​</B>
 https://learn.microsoft.com/en-us/training/modules/security-storage/2-azure-storage
 

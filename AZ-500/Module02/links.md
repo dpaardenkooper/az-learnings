@@ -35,7 +35,7 @@ https://learn.microsoft.com/en-us/training/modules/security-private-access-azure
 
 <br>
 
-## Plan and implement security for public access to Azure resources
+### Plan and implement security for public access to Azure resources
 <B>3-1a Azure Firewall comparison</B>
 https://learn.microsoft.com/en-us/azure/firewall/choose-firewall-sku
 
