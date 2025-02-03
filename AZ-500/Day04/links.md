@@ -1,7 +1,7 @@
 
 # AZ-500 - Microsoft Azure Security Technologies
 
-## Module 4 - Manage security operations
+## Day 04 - Manage security operations
 Links that where shared during the course:
 
 <br>

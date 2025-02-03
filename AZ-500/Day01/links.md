@@ -1,7 +1,7 @@
 
 # AZ-500 - Microsoft Azure Security Technologies
 
-## Module 1 - AZ-500: Manage identity and access
+## Day 01 - AZ-500: Manage identity and access
 Links that where shared during the course:
 
 <br>

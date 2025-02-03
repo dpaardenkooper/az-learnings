@@ -1,7 +1,7 @@
 
 # AZ-500 - Microsoft Azure Security Technologies ###
 
-## Module 2 - AZ-500: Secure networking
+## Day 02 - AZ-500: Secure networking
 Links that where shared during the course:
 
 <br>

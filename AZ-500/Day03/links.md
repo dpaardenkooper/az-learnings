@@ -1,7 +1,7 @@
 
 # AZ-500 - Microsoft Azure Security Technologies
 
-## Module 3 - AZ-500: Secure compute, storage, and databases
+## Day 03 - AZ-500: Secure compute, storage, and databases
 Links that where shared during the course:
 
 <br>
