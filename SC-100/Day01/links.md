@@ -29,7 +29,7 @@ https://learn.microsoft.com/en-us/security/zero-trust/deploy/overview
 https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/01a-Build_security_strategy.html
 https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/01b-Architecture_best_practices.html
 
-<B>Summery</B>
+<B>Summary</B>
 - Zero Trust Rapid Modernization Plan https://learn.microsoft.com/security/zero-trust/zero-trust-ramp-overview
 - [Visibility, automation, and orchestration with Zero Trust](https://learn.microsoft.com/security/zero-trust/deploy/visibility-automation-orchestration)
 - [Securing identity with Zero Trust](https://learn.microsoft.com/security/zero-trust/deploy/identity)
@@ -73,7 +73,7 @@ https://learn.microsoft.com/en-us/assessments/browse/?page=1&pagesize=30&searcht
 <B>Case study</B>
 https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/02-Design_solutions_CAF.html
 
-<B>Summery</B>
+<B>Summary</B>
 - [Security in the Microsoft Cloud Adoption Framework for Azure - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/overview)
 - [Security design in Azure - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/security)
 - [Microsoft Azure Well-Architected Framework - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/well-architected/)
@@ -99,7 +99,7 @@ https://learn.microsoft.com/en-us/training/modules/design-solutions-microsoft-cy
 <B>Case study</B>
 https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/03-Best_practices_MCRA_MCSB.html
 
-<B>Summery</B>
+<B>Summary</B>
 None.
 
 <br>
@@ -132,7 +132,7 @@ https://learn.microsoft.com/azure/automation/update-management/overview
 <B>Case study</B>
 https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/04-Design_resiliency_strategy_ransomware.html
 
-<B>Summery</B>
+<B>Summary</B>
 - [Business resilience - Cloud Adoption Framework](https://learn.microsoft.com/azure/cloud-adoption-framework/secure/business-resilience)
 - [Protect against ransomware](https://learn.microsoft.com/security/compass/protect-against-ransomware)
 - [Backup cloud and on-premises workloads to cloud](https://learn.microsoft.com/azure/backup/guidance-best-practices)
