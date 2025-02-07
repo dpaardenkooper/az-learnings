@@ -70,7 +70,7 @@ https://learn.microsoft.com/training/modules/design-solutions-align-cloud-adopti
 - https://learn.microsoft.com/en-us/assessments/browse/?page=1&pagesize=30&searchterm=security
 
 <B>Case study</B>
-h- ttps://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/02-Design_solutions_CAF.html
+- https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/02-Design_solutions_CAF.html
 
 <B>Summary</B>
 - [Security in the Microsoft Cloud Adoption Framework for Azure - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/secure/overview)
@@ -97,7 +97,7 @@ https://learn.microsoft.com/training/modules/design-solutions-align-cloud-adopti
 <B>Case study</B>
 - https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/03-Best_practices_MCRA_MCSB.html
 
-<B>Summary</B>
+<B>Summary</B> <br>
 None.
 
 <br>

@@ -61,35 +61,35 @@ https://learn.microsoft.com/training/modules/design-solutions-identity-access-ma
 
 <B>M02-03 Specify requirements to secure Active Directory Domain Services (AD DS)</B>
 - [Deploy AD DS in an Azure virtual network - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/identity/adds-extend-domain)
-[Secure Azure AD Domain Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-domain-services/secure-your-domain)
+- [Secure Azure AD Domain Services | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-domain-services/secure-your-domain)
 
 <B>M02-04 Design a solution for external identities</B>
-[External Identities documentation - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/)
-[External Identities in Microsoft Entra ID | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview)
-[Design a solution for external identities](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/3-design-solution-external-identities)
+- [External Identities documentation - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/)
+- [External Identities in Microsoft Entra ID | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview)
+- [Design a solution for external identities](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/3-design-solution-external-identities)
 
 <B>M02-05 Design modern authentication and authorization strategies</B>
-[Continuous access evaluation in Azure AD - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-continuous-access-evaluation)
-[Building a Conditional Access policy – Microsoft Entra ID | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies)
-[What is Azure Active Directory Identity Protection? - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
+- [Continuous access evaluation in Azure AD - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-continuous-access-evaluation)
+- [Building a Conditional Access policy – Microsoft Entra ID | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies)
+- [What is Azure Active Directory Identity Protection? - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection)
 
 <B>M02-06 Align conditional access and Zero Trust</B>
-[Conditional Access design principles and dependencies - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design)
-[Recommended practices for Conditional Access](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/5-align-conditional-access-zero-trust)
+- [Conditional Access design principles and dependencies - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/guide/security/conditional-access-design)
+- [Recommended practices for Conditional Access](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/5-align-conditional-access-zero-trust)
 
 <B>M02-07 Secure access for workload identities</B>
-- [Secure Access workload identities]: https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/6-secure-access-workload-identities
+- [Secure Access workload identities](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/6-secure-access-workload-identities)
 - [Further reading: Workload identities - Microsoft Entra](https://learn.microsoft.com/azure/active-directory/workload-identities/workload-identities-overview)
 
 <B>M02-08 Design a solution to manage secrets, keys, and certificates</B>
-[Overview of Key Management in Azure | Microsoft Learn](https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management) 
-[Best practices for using Azure Key Vault | Microsoft Learn](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices) 
-[What is Azure Key Vault? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)
+- [Overview of Key Management in Azure | Microsoft Learn](https://learn.microsoft.com/en-us/azure/security/fundamentals/key-management) 
+- [Best practices for using Azure Key Vault | Microsoft Learn](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices) 
+- [What is Azure Key Vault? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)
 
 <B>Case study</B>
-https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/06-Design_solutions_identity_access_management.html
+- https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/06-Design_solutions_identity_access_management.html
 
-<B>Summary</B>
+<B>Summary</B> <br>
 None
 
 <br>
@@ -99,35 +99,35 @@ None
 https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/
 
 <B>M03-01 Enterprise access model</B>
-[Enterpirse access model](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/2-enterprise-access-model)
-[Further reading: Securing privileged access Enterprise access model | Microsoft Learn](https://learn.microsoft.com/en-us/security/compass/privileged-access-access-model)
+- [Enterpirse access model](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/2-enterprise-access-model)
+- [Further reading: Securing privileged access Enterprise access model | Microsoft Learn](https://learn.microsoft.com/en-us/security/compass/privileged-access-access-model)
 
 <B>M03-02 Introduction to privileged access</B>
-[Securing privileged access overview | Microsoft Learn](https://learn.microsoft.com/en-us/security/privileged-access-workstations/overview)
+- [Securing privileged access overview | Microsoft Learn](https://learn.microsoft.com/en-us/security/privileged-access-workstations/overview)
 
 <B>M03-03 Identity governance in Microsoft Entra ID</B>
-[Design identity governance solution](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/3-design-identity-governance-solutions)
-[What is Privileged Identity Management? - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
-https://learn.microsoft.com/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services- 
-https://learn.microsoft.com/microsoft-365/compliance/privileged-access-management?view=o365-worldwide- 
-https://learn.microsoft.com/azure/active-directory/governance/entitlement-management-overview- https://learn.microsoft.com/azure/active-directory/governance/access-reviews-overview#when-should-you-use-access-reviews
+- [Design identity governance solution](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/3-design-identity-governance-solutions)
+- [What is Privileged Identity Management? - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)
+- https://learn.microsoft.com/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services- 
+- https://learn.microsoft.com/microsoft-365/compliance/privileged-access-management?view=o365-worldwide- 
+- https://learn.microsoft.com/azure/active-directory/governance/entitlement-management-overview- https://learn.microsoft.com/azure/active-directory/governance/access-reviews-overview#when-should-you-use-access-reviews
 
 <B>M03-04 Identity governance in on-premises Active Directory Domain Services</B>
-[Design identity governance solution](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/3-design-identity-governance-solutions)
+- [Design identity governance solution](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-privileged-access/3-design-identity-governance-solutions)
 
 <B>M03-05 Introduction to identity and access management</B>
-[What is Azure Lighthouse? - Azure Lighthouse | Microsoft Learn](https://learn.microsoft.com/azure/lighthouse/overview)
-[Tenant management for Microsoft 365 for enterprise | Microsoft Learn](https://learn.microsoft.com/microsoft-365/solutions/tenant-management-overview?view=o365-worldwide)
+- [What is Azure Lighthouse? - Azure Lighthouse | Microsoft Learn](https://learn.microsoft.com/azure/lighthouse/overview)
+- [Tenant management for Microsoft 365 for enterprise | Microsoft Learn](https://learn.microsoft.com/microsoft-365/solutions/tenant-management-overview?view=o365-worldwide)
 
 <B>M03-06 Design for cloud infrastructure entitlement management (CIEM)</B>
-[Permissions Management - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/azure/active-directory/cloud-infrastructure-entitlement-management/)
+- [Permissions Management - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/azure/active-directory/cloud-infrastructure-entitlement-management/)
 
 <B>M03-07 Design a solution for privileged access workstations and bastion services</B>
-[Why are privileged access devices important | Microsoft Learn](https://learn.microsoft.com/security/privileged-access-workstations/privileged-access-devices)
-[About Azure Bastion | Microsoft Learn](https://learn.microsoft.com/azure/bastion/bastion-overview#architecture)
+- [Why are privileged access devices important | Microsoft Learn](https://learn.microsoft.com/security/privileged-access-workstations/privileged-access-devices)
+- [About Azure Bastion | Microsoft Learn](https://learn.microsoft.com/azure/bastion/bastion-overview#architecture)
 
 <B>Case study</B>
-https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/07-Design_solutions_securing_privileged_access.html
+- https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/07-Design_solutions_securing_privileged_access.html
 
 
 <B>Summary</B>

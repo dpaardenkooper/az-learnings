@@ -12,21 +12,21 @@ https://learn.microsoft.com/en-us/training/paths/sc-100-design-security-solution
 https://learn.microsoft.com/training/modules/design-solutions-secure-microsoft-365
 
 <B>M01-01 Security for Exchange, Sharepoint, OneDrive and Teams (M365)</B>
-[Office 365 Security including Microsoft Defender for Collaboration and Exchange Online Protection - Office 365](https://learn.microsoft.com/microsoft-365/security/office-365-security/microsoft-defender-for-office-365-product-overview?view=o365-worldwide)
-[Assess your security posture through Microsoft Secure Score](https://learn.microsoft.com/microsoft-365/security/defender/microsoft-secure-score-improvement-actions?view=o365-worldwide)
-[Zero Trust deployment plan with Microsoft 365](https://learn.microsoft.com/microsoft-365/security/microsoft-365-zero-trust?view=o365-worldwide)
+- [Office 365 Security including Microsoft Defender for Collaboration and Exchange Online Protection - Office 365](https://learn.microsoft.com/microsoft-365/security/office-365-security/microsoft-defender-for-office-365-product-overview?view=o365-worldwide)
+- [Assess your security posture through Microsoft Secure Score](https://learn.microsoft.com/microsoft-365/security/defender/microsoft-secure-score-improvement-actions?view=o365-worldwide)
+- [Zero Trust deployment plan with Microsoft 365](https://learn.microsoft.com/microsoft-365/security/microsoft-365-zero-trust?view=o365-worldwide)
 
 <B>M01-02 Evaluate security posture for productivity and collaboration workloads by using metrics</B>
-[Assess your security posture through Microsoft Secure Score](https://learn.microsoft.com/microsoft-365/security/defender/microsoft-secure-score-improvement-actions?view=o365-worldwide)
+- [Assess your security posture through Microsoft Secure Score](https://learn.microsoft.com/microsoft-365/security/defender/microsoft-secure-score-improvement-actions?view=o365-worldwide)
 
 <B>M01-03 Evaluate solutions that include Microsoft Defender for Office and Microsoft Defender for Cloud Apps</B>
-[Integrate Azure and Microsoft 365 Defender security services - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure)
+- [Integrate Azure and Microsoft 365 Defender security services - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure)
 
 <B>M01-04 Design configurations and operational practices for M365</B>
 - [Zero Trust deployment plan with Microsoft 365](https://learn.microsoft.com/microsoft-365/security/microsoft-365-zero-trust?view=o365-worldwide)
 
 <B>Case study</B>
-[Not yet available](https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/09-Design_solutions_securing_Microsoft_365.html)
+- [Not yet available](https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/09-Design_solutions_securing_Microsoft_365.html)
 
 <B>Summary</B>
 - [Office 365 Security including Microsoft Defender for Collaboration and Exchange Online Protection - Office 365](https://learn.microsoft.com/microsoft-365/security/office-365-security/microsoft-defender-for-office-365-product-overview?view=o365-worldwide)
