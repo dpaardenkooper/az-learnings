@@ -29,11 +29,11 @@ https://learn.microsoft.com/training/modules/design-solutions-secure-microsoft-3
 - [Guide](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/4-design-configurations-operational-practices-microsoft-365)
 
 <B>M01-05 Evaluate solutions for securing data in Microsoft 365 using Microsoft Purview</B>
-[Data security with Microsoft Purview](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/6-evaluate-solutions-securing-data-microsoft-purview)
+- [Data security with Microsoft Purview](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/6-evaluate-solutions-securing-data-microsoft-purview)
 [Microsoft Purview dashboard](https://purview.microsoft.com/)
 
 <B>M01-06 Evaluate data security and compliance controls in Microsoft Copilot for Microsoft 365 services</B>
-[Data security and compliance with Microsoft Copilot]https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/5-evaluate-data-security-compliance-copilot
+- [Data security and compliance with Microsoft Copilot]https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-microsoft-365/5-evaluate-data-security-compliance-copilot
 
 <B>Case study</B>
 - [Not yet available](https://microsoftlearning.github.io/SC-100-Microsoft-Cybersecurity-Architect/Instructions/CaseStudyv2/09-Design_solutions_securing_Microsoft_365.html)
@@ -45,7 +45,6 @@ https://learn.microsoft.com/training/modules/design-solutions-secure-microsoft-3
 - [Integrate Azure and Microsoft 365 Defender security services - Azure Architecture Center](https://learn.microsoft.com/azure/architecture/solution-ideas/articles/microsoft-365-defender-security-integrate-azure)
 - [Build the second layer of defense with Microsoft 365 Defender Security services - Azure Architecture Center](https://learn.microsoft.com/azure/architecture/solution-ideas/articles/microsoft-365-defender-build-second-layer-defense)
 
-<br>
 <br>
 <br>
 
@@ -69,7 +68,7 @@ https://learn.microsoft.com/training/modules/design-solutions-secure-application
 - [Threat Modeling Security Fundamentals | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals)
 
 <B>M02-05 Design security lifecycle strategy for applications</B>
-[Design security lifecycle strategy for applications](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/5-design-security-lifecycle-strategy-applications)
+- [Design security lifecycle strategy for applications](https://learn.microsoft.com/en-us/training/modules/design-solutions-secure-applications/5-design-security-lifecycle-strategy-applications)
 
 <B>M02-07 Design a solution for API management and security</B>
 - [Azure API Management - Overview and key concepts](https://learn.microsoft.com/azure/api-management/api-management-key-concepts)
@@ -100,7 +99,6 @@ https://learn.microsoft.com/training/modules/design-solutions-secure-application
 - [What is Azure web application firewall on Azure CDN?](https://learn.microsoft.com/azure/web-application-firewall/cdn/cdn-overview)
 
 
-<br>
 <br>
 <br>
 

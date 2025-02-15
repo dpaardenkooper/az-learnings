@@ -38,7 +38,6 @@ Learning Objectives
 
 <br>
 <br>
-<br>
 
 ### Design security solutions for infrastructure <Br>
 https://learn.microsoft.com/training/paths/sc-100-design-security-solutions-infrastructure
@@ -59,7 +58,7 @@ https://learn.microsoft.com/training/paths/sc-100-design-security-solutions-infr
 - [Create reports via custom workbook](https://learn.microsoft.com/en-us/azure/defender-for-cloud/custom-dashboards-azure-workbooks)
 
 <B>M02-05 Design posture management and workload protection in hybrid and multicloud environments</B>
--[Design integrated posture management and workload protection]https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/3-design-integrated-posture-management-workload-protection
+- [Design integrated posture management and workload protection]https://learn.microsoft.com/en-us/training/modules/design-solutions-security-posture-management-hybrid-multicloud-environments/3-design-integrated-posture-management-workload-protection
 - [What is Microsoft Defender for Cloud? - Microsoft Defender for Cloud | Microsoft Learn](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)
 
 <B>M02-06 Design cloud workload protection solutions that use Microsoft Defender for Cloud</B>
@@ -100,7 +99,6 @@ https://learn.microsoft.com/training/paths/sc-100-design-security-solutions-infr
 - [Introduction to Azure Arc landing zone accelerator for hybrid and multicloud - Cloud Adoption Framework](https://learn.microsoft.com/azure/cloud-adoption-framework/scenarios/hybrid/enterprise-scale-landing-zone)
 - [External attack surface management (EASM) - Defender EASM and External Attack Surface Management (EASM) and Defender for Cloud](https://learn.microsoft.com/azure/defender-for-cloud/concept-easm)
 
-<br>
 <br>
 <br>
 
@@ -144,7 +142,6 @@ https://learn.microsoft.com/training/modules/design-solutions-securing-server-cl
 
 <br>
 <br>
-<br>
 
 ### Design solutions for network security <Br>
 https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/
@@ -172,5 +169,5 @@ https://learn.microsoft.com/en-us/training/modules/design-solutions-network-secu
 <B>M04-06 Microsoft Entra Private Access</B>
 - [Microsoft Entra Private Access](https://learn.microsoft.com/en-us/training/modules/design-solutions-network-security/7-evaluate-solutions-entra-private-access)
 
-<B>Summary</B>
+<B>Summary</B> <br>
 [None]
