@@ -43,7 +43,7 @@ https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-de
 <br>
 <br>
 
-### Describe the benefits of using cloud services
+### Describe Azure architecture and services
 - [Azure architecture and services](https://learn.microsoft.com/training/paths/azure-fundamentals-describe-azure-architecture-services/)
 
 <B>M02-01 Azure architectural components</B>
@@ -93,6 +93,45 @@ https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-de
 - [Zero Trust](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/7-describe-zero-trust-model)
 - [Defense in Depth](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/8-describe-defense-depth)
 - [Microsoft Defender for Cloud](https://learn.microsoft.com/training/modules/describe-azure-identity-access-security/9-describe-microsoft-defender-for-cloud)
-- []()
-- []()
-- []()
+
+<br>
+<br>
+
+### Describe Azure management and governance
+- [Describe Azure management and governance](https://learn.microsoft.com/en-gb/training/paths/describe-azure-management-governance/)
+
+<B>M03-01 Describe cost management in Azure</B>
+- [Cost factors](https://learn.microsoft.com/en-gb/training/modules/describe-cost-management-azure/2-describe-factors-affect-costs-azure)
+- [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/ )
+- [Pricing calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
+- [TCO calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/)
+- [Cost Management](https://azure.microsoft.com/en-us/services/cost-management/)
+- [Azure Tags](https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources)
+
+<br>
+
+<B>M03-02 Governance and compliance</B>
+- [Governance and compliance](https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance)
+- [Microsoft Purview Learn](https://learn.microsoft.com/en-us/purview/purview)
+- [Microsoft Purview Portal](https://purview.microsoft.com)
+- [Azure Policy](https://azure.microsoft.com/en-us/services/azure-policy)
+- [Resource Locks](https://learn.microsoft.com/en-gb/training/modules/describe-features-tools-azure-for-governance-compliance/5-exercise-configure-resource-lock)
+- [Service Trust portal](https://learn.microsoft.com/training/modules/describe-features-tools-azure-for-governance-compliance/6-describe-purpose-of-service-trust-portal)
+
+<br>
+
+<B>M03-03 Management and deployment tools</B>
+- [Management and deployment tools](https://learn.microsoft.com/training/modules/describe-features-tools-manage-deploy-azure-resources/)
+- [Azure Arc](https://learn.microsoft.com/training/modules/describe-features-tools-manage-deploy-azure-resources/3-describe-purpose-of-azure-arc)
+- [Azure Resource Manager](https://learn.microsoft.com/azure/azure-resource-manager/)
+- [Infrastructure as code](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#deploy-iac-on-azure)
+- [Azure Resource Manager (ARM) templates](https://learn.microsoft.com/training/modules/describe-features-tools-manage-deploy-azure-resources/4-describe-azure-resource-manager-azure-arm-templates)
+- [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+
+<br>
+
+<B>M03-04 Azure monitoring tools</B>
+- [Azure monitoring tools](https://learn.microsoft.com/training/modules/describe-monitoring-tools-azure/)
+- [Azure Advisor](https://learn.microsoft.com/azure/advisor/advisor-overview)
+- [Azure Service Health](https://learn.microsoft.com/training/modules/describe-monitoring-tools-azure/3-describe-azure-service-health)
+- [Azure Monitor](https://learn.microsoft.com/training/modules/describe-monitoring-tools-azure/4-describe-azure-monitor)
