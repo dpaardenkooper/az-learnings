@@ -16,7 +16,7 @@ Microsoft Learn
 
 **Learning from video's**
 - Design solutions that align with security best practices and priorities: [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=az-900](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=az-900)
-- SC-100 Cybersecurity Architect Expert Certification Study Cram [https://www.youtube.com/watch?v=pY0LnKiDwRA&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3](https://www.youtube.com/watch?v=pY0LnKiDwRA&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3)
+- AZ-900 Certification Course [https://www.youtube.com/watch?v=pY0LnKiDwRA&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3](https://www.youtube.com/watch?v=pY0LnKiDwRA&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3)
 <br>
 
 Thnx for following the training and good luck with achieving your exam!
