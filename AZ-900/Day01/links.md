@@ -2,8 +2,8 @@
 # AZ-900 - Azure Fundamentals
 Links that where shared during the course:
 
-## Module 1 - Microsoft Azure Fundamentals: Describe cloud concepts
-https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/
+## Course Syllabus
+https://learn.microsoft.com/en-us/training/courses/az-900t00
 
 <br>
 
