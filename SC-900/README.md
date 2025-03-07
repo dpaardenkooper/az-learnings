@@ -7,7 +7,7 @@ If you want to have more practical information, check the links below:
 
 Microsoft Learn
 - Security, Compliance, and Identity Fundamentals: [https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/?practice-assessment-type=certification](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/?practice-assessment-type=certification)
-- Study guide for Exam SC-900: [hhttps://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-900](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-900)
+- Study guide for Exam SC-900: [https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-900](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-900)
 <br>
 
 **Exam prep**
