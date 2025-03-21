@@ -52,7 +52,6 @@ https://learn.microsoft.com/en-us/training/courses/ai-900t00
 - [Understand facial analysis](https://learn.microsoft.com/en-gb/training/modules/detect-analyze-faces/2-what-is-face-analysis)
 - [Get started with facial analysis on Azure](https://learn.microsoft.com/en-gb/training/modules/detect-analyze-faces/3-face-analysis-azure)
 - [Exercise - Detect faces in Vision Studio](https://learn.microsoft.com/en-gb/training/modules/detect-analyze-faces/4-exercise)
-- []()
 
 <br>
 
