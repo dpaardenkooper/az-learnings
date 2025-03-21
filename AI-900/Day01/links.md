@@ -105,7 +105,7 @@ https://learn.microsoft.com/en-us/training/courses/ai-900t00
 <br>
 
 ### Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining
-- [Document Intelligence and Knowledge Mining](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-compliance-solutions/)
+- [Microsoft Azure AI Fundamentals: Generative AI](https://learn.microsoft.com/training/modules/fundamentals-generative-ai/)
 
 <B>M04-01 Fundamentals of Azure AI Document Intelligence</B>
 - [Explore capabilities of document intelligence](https://learn.microsoft.com/en-gb/training/modules/analyze-receipts-form-recognizer/2-document-intelligence-capabilities)
@@ -127,27 +127,50 @@ https://learn.microsoft.com/en-us/training/courses/ai-900t00
 - [Generative AI](https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/)
 
 <B>M05-01 Fundamentals of Generative AI</B>
-- []()
-- []()
-- []()
-- []()
+- [What is generative AI](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/2-what-is-generative-ai)
+- [What are language models](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/3-language%20models)
+- [Language support - prebuilt models](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/language-support/prebuilt?view=doc-intel-4.0.0&tabs=languages%2Cthermal)
+- [Azure AI Language documentation](https://learn.microsoft.com/en-us/azure/ai-services/language-service/)
+- [Prebuilt model overview](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/model-overview?view=doc-intel-4.0.0)
+- [Understand Microsoft CoPilot](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/5a-microsoft-copilot)
+- [Considerations for prompts](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/6-writing-prompts)
+- [Extending and developing copilot-like agents](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/6a-building-custom-copilots)
+- [Exercise - Explore generative AI in Azure AI Foundry portal](https://learn.microsoft.com/en-gb/training/modules/fundamentals-generative-ai/7-exercise)
 
 <br>
 
 <B>M05-02 Plan and prepare to develop AI solutions on Azure</B>
-- []()
-- []()
-- []()
-- []()
+- [What is AI](https://learn.microsoft.com/en-gb/training/modules/prepare-azure-ai-development/2-what-is-ai)
+- [Azure AI services](https://learn.microsoft.com/en-gb/training/modules/prepare-azure-ai-development/3-azure-ai-services)
+- [Azure AI Foundry](https://learn.microsoft.com/en-gb/training/modules/prepare-azure-ai-development/4-azure-ai-foundry)
+- [Role-based access control in Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-ai-foundry)
+- [Responsible AI](https://learn.microsoft.com/en-gb/training/modules/prepare-azure-ai-development/6-responsible-ai)
+- [Responsible AI Transparancy Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf)
+- [Exercise - Explore the Azure AI Foundry portal](https://learn.microsoft.com/en-gb/training/modules/prepare-azure-ai-development/7-exercise-explore-ai-foundry)
+
+<br>
 
 <B>M05-03 Responsible generative AI</B>
-- []()
-- []()
-- []()
-- []()
+- [Plan a responsible generative AI solution](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/2-plan-responsible-ai)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [Microsoft Responsible AI Impact Assessment Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ZzOI)
+- [Planning red teaming for large language models (LLMs) and their applications](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/red-teaming)
+- [Identify potential harms](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/3-identify-harms)
+- [Mitigate potential harms](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/5-mitigate-harms)
+- [Azure AI Content Safety](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/6-operate-responsibly)
+- [Exercise - Explore content filters in Azure AI Studio](https://learn.microsoft.com/en-gb/training/modules/responsible-ai-studio/7-exercise-content-filters)
+
+<br>
 
 <B>M05-04 Fundamentals of AI agents on Azure</B>
-- []()
-- []()
-- []()
-- []()
+- [What are AI agents?](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/2-what-are-agents)
+- [Azure AI Agent Service](https://learn.microsoft.com/en-us/azure/ai-services/agents/)
+- [Options for agent development](https://learn.microsoft.com/en-gb/training/modules/ai-agent-fundamentals/3-agent-development)
+- [OpenAI Assistants API](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant)
+- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/?pivots=programming-language-csharp)
+- [AutoGen](https://microsoft.github.io/autogen/stable/index.html)
+- [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/)
+- [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
+- [Copilot Studio agent builder M365 Copilot](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build)
+- [Exercise - Explore AI Agent development](https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/01-agent-fundamentals.html)
+- [Azure AI Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/agents/?azure-portal=true)
