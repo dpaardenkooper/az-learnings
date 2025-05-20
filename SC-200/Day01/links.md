@@ -136,40 +136,34 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Mitigate threats using Microsoft Purview](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-purview/)
 
 <B>M03-01 Investigate and respond to Microsoft Purview Data Loss Prevention alerts</B>
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Purview portal](https://purview.Microsoft.com)
+- [Lifecycle DLP alerts](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/data-loss-prevention-alert-lifecycle)
+- [How to configure alerts](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/configure-data-loss-prevention-alert-generation)
+- [Review and investigate alerts in Microsoft Purview](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/investigate-alerts-purview)
+- [Investigate DLP alerts in Microsoft Defender XDR](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/investigate-alerts-defender)
 - []()
 
 <br>
 
 <B>M03-02 Investigate insider risk alerts and related activity</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Investigate insider risk threats in the Microsoft Defender portal](https://learn.microsoft.com/en-us/defender-xdr/irm-investigate-alerts-defender)
+- [Best practices for managing your alert volume in insider risk management](https://learn.microsoft.com/en-us/purview/insider-risk-management-best-practices-alert-tuning)
+- [Micfosoft Purview Insider Risk Management](https://mslearn.cloudguides.com/guides/Minimize%20internal%20risks%20with%20insider%20risk%20management%20in%20Microsoft%20365)
 
 <br>
 
-<B>M03-03 Search and investigate with Microsoft Purview Audit</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+
+<B>M03-03 Investigate threats with Content search in Microsoft Purview</B>
+- [Comparison of Key Capabilities eDiscovery](https://learn.microsoft.com/en-us/training/modules/investigate-threats-with-content-search-in-microsoft-purview/2-explore-ediscovery-solutions)
+- [Create a content search](https://learn.microsoft.com/en-us/purview/ediscovery-content-search-overview)
+- [Configure search permissions filtering](https://learn.microsoft.com/en-us/training/modules/investigate-threats-with-content-search-in-microsoft-purview/6-configure-search-permissions-filters)
 
 <br>
 
-<B>M03-04 Investigate threats with Content search in Microsoft Purview</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-
+<B>M03-04 Search and investigate with Microsoft Purview Audit</B>
+- [Comparison of key capabilities Microsoft Purview](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/audit-overview)
+- [Configure and manage Microsoft Purview Audit](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/audit-configure-manage)
+- [Conduct searches with Audit (Standard)](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/audit-standard-search)
+- [Investigate activities with Audit (Premium)](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/audit-premium-investigate)
+- [Configure audit retention with Audit (Premium)](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/audit-premium-retention)
+- [Turn auditing on or off](https://learn.microsoft.com/en-us/purview/audit-log-enable-disable)
