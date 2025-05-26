@@ -7,7 +7,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 
 <br>
 
-### Mitigate threats using Microsoft Defender XDR
+### Module 1 - Mitigate threats using Microsoft Defender XDR
 - [Mitigate threats using Microsoft Defender XDR](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-365-defender/)
 
 <B>M01-01 Introduction to Microsoft Defender XDR threat protection</B>
@@ -75,7 +75,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <br>
 <br>
 
-### Mitigate threats using Microsoft Security Copilot
+### Module 2 - Mitigate threats using Microsoft Security Copilot
 - [Mitigate threats using Microsoft Security Copilot](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-copilot-for-security/)
 
 <B>M02-01 Introduction to generative AI</B>
@@ -132,7 +132,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <br>
 <br>
 
-### Mitigate threats using Microsoft Purview
+### Module 3 - Mitigate threats using Microsoft Purview
 - [Mitigate threats using Microsoft Purview](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-purview/)
 
 <B>M03-01 Investigate and respond to Microsoft Purview Data Loss Prevention alerts</B>
