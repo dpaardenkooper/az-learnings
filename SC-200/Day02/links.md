@@ -7,7 +7,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 
 <br>
 
-### Mitigate threats using Microsoft Defender for Endpoint
+### Module 4 - Mitigate threats using Microsoft Defender for Endpoint
 - [Mitigate threats using Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/)
 
 <B>M04-01 Protect against threats with Microsoft Defender for Endpoint</B>
@@ -22,7 +22,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Interactive guide - Deploy Microsoft Defender for Endpoint](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Deploy%20Microsoft%20Defender%20for%20Endpoint)
 - [Role-based access control – Microsoft Defender for Endpoint](https://learn.microsoft.com/en-gb/training/modules/deploy-microsoft-defender-for-endpoints-environment/5-manage-access)
 - [Create and manage roles for role-based access control](https://learn.microsoft.com/en-gb/training/modules/deploy-microsoft-defender-for-endpoints-environment/6-create-manage-roles-for-role-based-access-control)
-- [Create and manage roles for role-based access control documentation](- https://learn.microsoft.com/en-us/defender-endpoint/user-roles)
+- [Create and manage roles for role-based access control documentation](https://learn.microsoft.com/en-us/defender-endpoint/user-roles)
 - [Configure Advanced features](https://learn.microsoft.com/en-gb/training/modules/deploy-microsoft-defender-for-endpoints-environment/8-configure-environment-advanced-features)
 - [Configure environment advanced features](https://learn.microsoft.com/en-gb/training/modules/deploy-microsoft-defender-for-endpoints-environment/8-configure-environment-advanced-features)
 - [Become a Microsoft Defender for Endpoint Ninja](https://techcommunity.microsoft.com/blog/microsoftdefenderatpblog/become-a-microsoft-defender-for-endpoint-ninja/1515647)
@@ -79,7 +79,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <br>
 <br>
 
-### Mitigate threats using Microsoft Defender for Cloud
+### Module 5 - Mitigate threats using Microsoft Defender for Cloud
 - [Mitigate threats using Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-azure-defender/)
 
 <B>M05-01 Plan for cloud workload protections using Microsoft Defender for Cloud</B>
@@ -103,8 +103,6 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/3-connect-non-azure-machines](Onboard non-Azure machines with the Azure Connected Machine agent)
 - [Connect your AWS accounts](https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/4-connect-aws-accounts)
 - [Connect your GCP accounts](https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/5-connect-gcp-accounts)
-- []()
-- []()
 
 <br>
 
@@ -129,7 +127,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <br>
 <br>
 
-### Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
+### Module 6 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
 - [Create queries for Microsoft Sentinel using Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/)
 
 <B>M06-01 Construct KQL statements for Microsoft Sentinel</B>
