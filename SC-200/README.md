@@ -19,6 +19,10 @@ Microsoft Learn
 - Configure protections and detections (part 2 of 4): [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-configure-protections-and-detections](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-configure-protections-and-detections)
 - Manage incident response (part 3 of 4): [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-manage-incident-responset](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-manage-incident-response)
 - Manage security threats (part 4 of 4): [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-manage-security-threats](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-sc-200-manage-security-threats)
+<br>
+
+**Labs**
+- [SC-200T00A-Microsoft-Security-Operations-Analyst](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/)
 
 <br>
 
