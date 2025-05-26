@@ -22,7 +22,7 @@ Microsoft Learn
 <br>
 
 **Labs**
-- [SC-200T00A-Microsoft-Security-Operations-Analyst](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/)
+- Exercises: [SC-200T00A-Microsoft-Security-Operations-Analyst](https://microsoftlearning.github.io/SC-200T00A-Microsoft-Security-Operations-Analyst/)
 
 <br>
 
