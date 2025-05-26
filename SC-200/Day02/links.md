@@ -83,62 +83,48 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Mitigate threats using Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-azure-defender/)
 
 <B>M05-01 Plan for cloud workload protections using Microsoft Defender for Cloud</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Advantages](https://learn.microsoft.com/en-gb/training/modules/what-is-azure-defender/3-understand-azure-secure-center)
+- [CSPM plan matrix](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+- [Guided demonstration – Microsoft Defender for Cloud](https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center)
+- [Defender plans](https://learn.microsoft.com/en-us/azure/defender-for-cloud/support-matrix-cloud-environment)
+- Interactive Guide - [Enable Microsoft Defender for cloud](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Enable%20Microsoft%20Defender%20for%20Cloud)
 
 <br>
 
 <B>M05-02 Connect Azure assets to Microsoft Defender for Cloud</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Key features asset inventory](https://learn.microsoft.com/en-us/azure/defender-for-cloud/asset-inventory#what-are-the-key-features-of-asset-inventory)
+- [Auto Provisioning](https://learn.microsoft.com/en-gb/training/modules/connect-azure-assets-to-azure-defender/3-configure-auto-provisioning)
+- [Manual Provisioning](https://learn.microsoft.com/en-gb/training/modules/connect-azure-assets-to-azure-defender/4-manual-log-analytics-agent-provisioning)
 
 <br>
 
 <B>M05-03 Connect non-Azure resources to Microsoft Defender for Cloud</B>
-- []()
-- []()
-- []()
-- []()
+- [Azure Arc overview](https://learn.microsoft.com/en-us/azure/azure-arc/overview)
+- [https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/3-connect-non-azure-machines](Onboard non-Azure machines with the Azure Connected Machine agent)
+- [Connect your AWS accounts](https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/4-connect-aws-accounts)
+- [Connect your GCP accounts](https://learn.microsoft.com/en-gb/training/modules/connect-non-azure-machines-to-azure-defender/5-connect-gcp-accounts)
 - []()
 - []()
 
 <br>
 
 <B>M05-04 Manage your cloud security posture management</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Explore Secure Score](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Mitigate%20threats%20using%20Microsoft%20Defender%20for%20Cloud)
+- [Investigate risk with security explorer/attack paths](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-attack-path)
 
 <br>
 
 <B>M05-05 Explain cloud workload protections in Microsoft Defender for Cloud</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Difference Plan 1 vs 2 Defender for Servers](https://learn.microsoft.com/en-gb/training/modules/understand-azure-defender-cloud-workload-protection/2-understand-azure-defender-for-servers)
+- [What threats can Defender for App Service detect?](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-app-service-introduction#what-threats-can-defender-for-app-service-detect)
+- [Microsoft Defender for Databases](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-databases-introduction#what-kind-of-alerts-does-microsoft-defender-for-open-source-relational-databases-provide)
+- [Microsoft Defender for Storage](https://docs.microsoft.com/en-us/azure/security-center/defender-for-storage-introduction#what-kind-of-alerts-does-microsoft-defender-for-storage-provide)
+- [Alerts for Resource Manager](https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-resource-manager)
 
 <br>
 
 <B>M05-06 Remediate security alerts using Microsoft Defender for Cloud</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Understand security incident](https://learn.microsoft.com/en-gb/training/modules/remediate-azure-defender-security-alerts/2-understand-security-alerts)
 
 <br>
 <br>
@@ -147,40 +133,28 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Create queries for Microsoft Sentinel using Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/)
 
 <B>M06-01 Construct KQL statements for Microsoft Sentinel</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [KQL quick reference](https://docs.microsoft.com/en-us/azure/data-explorer/kql-quick-reference)
+- [Query best practices](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/best-practices)
+- [Become a Microsoft Sentinel Ninja](https://techcommunity.microsoft.com/t5/azure-sentinel/become-an-azure-sentinel-ninja-the-complete-level-400-training/ba-p/1246310)
 
 <br>
 
 <B>M06-02 Analyze query results using KQL</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Use the summarize operator](https://learn.microsoft.com/en-gb/training/modules/analyze-results-kusto-query-language/2-use-summarize-operator)
+- [Use the summarize operator to filter results](https://learn.microsoft.com/en-gb/training/modules/analyze-results-kusto-query-language/3-use-summarize-operator-to-filter-results)
+- [Use the summarize operator to prepare data](https://learn.microsoft.com/en-gb/training/modules/analyze-results-kusto-query-language/4-use-summarize-operator-to-prepare-data)
 
 <br>
 
 <B>M06-03 Build multi-table statements using KQL</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Use the join operator](https://learn.microsoft.com/en-gb/training/modules/build-multi-table-statements-kusto-query-language/3-use-join-operator)
+- [Use the union operator](https://learn.microsoft.com/en-gb/training/modules/build-multi-table-statements-kusto-query-language/2-use-union-operator)
 
 <br>
 
 <B>M06-04 Work with data in Microsoft Sentinel using Kusto Query Language</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-
+- [Extract data from unstructured string fields](https://learn.microsoft.com/en-gb/training/modules/work-with-data-kusto-query-language/2-extract-data-from-unstructured-string-fields)
+- [Parse data from unstructured string fields](https://learn.microsoft.com/en-us/kusto/query/parse-where-operator?view=microsoft-fabric)
+- [Extract data from structured string data](https://learn.microsoft.com/en-gb/training/modules/work-with-data-kusto-query-language/3-extract-data-from-structured-string-data)
+- [Integrate external data](https://learn.microsoft.com/en-gb/training/modules/work-with-data-kusto-query-language/4-integrate-external-data)
+- [Create parsers with functions](https://learn.microsoft.com/en-gb/training/modules/work-with-data-kusto-query-language/5-create-parsers-functions)
