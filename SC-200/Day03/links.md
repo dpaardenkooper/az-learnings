@@ -104,22 +104,16 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <br>
 
 <B>M08-07 Connect syslog data sources to Microsoft Sentinel</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Create Data Collection Rule](https://learn.microsoft.com/en-gb/training/modules/connect-syslog-data-sources-to-azure-sentinel/3-collect-data-from-linux-based-sources-using-syslog?tabs=azure-linux-vm)
+- [Configure Data Collection Rule](https://learn.microsoft.com/en-gb/training/modules/connect-syslog-data-sources-to-azure-sentinel/4-configure-log-analytics-agent)
+- [Collect Syslog events from virtual machine client with Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/vm/data-collection-syslog)
 
 <br>
 
 <B>M08-08 Connect threat indicators to Microsoft Sentinel</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Connect the Defender Threat Intelligence connector](https://learn.microsoft.com/en-gb/training/modules/connect-threat-indicators-to-azure-sentinel/3-connect-defender-threat-intelligence-connector)
+- [Connect the threat intelligence TAXII connector](https://learn.microsoft.com/en-gb/training/modules/connect-threat-indicators-to-azure-sentinel/4-connect-threat-intelligence-taxii-connector)
+- [Connect the Threat Intelligence  Upload API connector](https://learn.microsoft.com/en-gb/training/modules/connect-threat-indicators-to-azure-sentinel/3-connect-defender-threat-intelligence-connector)
 
 <br>
 <br>
