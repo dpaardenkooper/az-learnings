@@ -103,3 +103,4 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Microsoft Sentinel community Sentinel-Notebooks](https://github.com/Azure/Azure-Sentinel-Notebooks)
 - [Create a notebook](https://learn.microsoft.com/en-gb/training/modules/perform-threat-hunting-sentinel-with-notebooks/4-create-notebook)
 - [Jupyter notebooks with Microsoft Sentinel hunting capabilities](https://learn.microsoft.com/en-us/azure/sentinel/notebooks)
+- [KQL quick reference](https://learn.microsoft.com/en-us/kusto/query/kql-quick-reference?view=azure-data-explorer&preserve-view=true)
