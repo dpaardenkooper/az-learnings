@@ -30,7 +30,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 <B>M09-03 Threat response with Microsoft Sentinel playbooks</B>
 - [Automation in Microsoft Sentinel: Security orchestration, automation, and response (SOAR)](https://learn.microsoft.com/en-us/azure/sentinel/automation/automation)
 - [Interactive Simulation - Create a playbook](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Create%20a%20playbook)
-- [https://github.com/Azure/Azure-Sentinel]()
+- [Microsoft Sentinel Community](https://github.com/Azure/Azure-Sentinel)
 - [Exercise - Create a Microsoft Sentinel playbook](https://learn.microsoft.com/en-gb/training/modules/threat-response-sentinel-playbooks/2-exercise-setup)
 - [Microsoft Sentinel Connector](https://learn.microsoft.com/en-us/connectors/azuresentinel/)
 
@@ -51,7 +51,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-200t00
 - [Use ASIM Parsers](https://learn.microsoft.com/en-gb/training/modules/data-normalization-microsoft-sentinel/3-use-asim-parsers)
 - [Using the Advanced Security Information Model (ASIM) (Public preview)](https://learn.microsoft.com/en-us/azure/sentinel/normalization-about-parsers#unifying-parsers)
 - [Create an ASIM Parser](https://learn.microsoft.com/en-us/AZURE/sentinel/normalization-develop-parsers#custom-parser-development-process)
-- [Data ingestion flow in Microsoft Sentinel]https://learn.microsoft.com/en-us/azure/sentinel/data-transformation#data-ingestion-flow-in-microsoft-sentinel)
+- [Data ingestion flow in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/data-transformation#data-ingestion-flow-in-microsoft-sentinel)
 
 <br>
 
