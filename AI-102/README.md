@@ -16,7 +16,7 @@ Microsoft Learn
 
 **Learning from video's**
 - Design solutions that align with security best practices and priorities: [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=ai-102](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=ai-102)
-- AZ-900 Certification Course [https://www.youtube.com/watch?v=I7fdWafTcPY](hhttps://www.youtube.com/watch?v=I7fdWafTcPY)
+- AI-102 Certification Course [https://www.youtube.com/watch?v=I7fdWafTcPY](https://www.youtube.com/watch?v=I7fdWafTcPY)
 <br>
 
 Thnx for following the training and good luck with achieving your exam!
