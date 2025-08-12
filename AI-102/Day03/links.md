@@ -124,7 +124,7 @@ Extra (From MS Learn)
 
 <br>
 
-<B>M03-08 Translate speech with the Azure AI Speech service</B>
+<B>M03-12 Translate speech with the Azure AI Speech service</B>
 - [Translate speech to text](https://learn.microsoft.com/en-gb/training/modules/translate-speech-speech-service/3-translate-speech-text)
 - [Synthesize translations](https://learn.microsoft.com/en-gb/training/modules/translate-speech-speech-service/4-synthesize-translation)
 - [Exercise - Translate speech](https://microsoftlearning.github.io/mslearn-ai-language/Instructions/Labs/08-translate-speech.html)
@@ -132,7 +132,7 @@ Extra (From MS Learn)
 
 <br>
 
-<B>M03-12 Develop an audio-enabled generative AI application</B>
+<B>M03-13 Develop an audio-enabled generative AI application</B>
 - [Deploy a multimodal model](https://learn.microsoft.com/en-gb/training/modules/develop-generative-ai-audio-apps/2-deploy-multimodal-model)
 - [Explore Azure AI Foundry Models](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/foundry-models-overview)
 - [Develop an audio-based chat app](https://learn.microsoft.com/en-gb/training/modules/develop-generative-ai-audio-apps/3-develop-audio-chat-app)
