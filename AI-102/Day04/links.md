@@ -7,7 +7,7 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer
 <br>
 
 ### Develop computer vision solutions in Azure
-- [Module](hhttps://learn.microsoft.com/en-gb/training/paths/create-computer-vision-solutions-azure-ai/)
+- [Module](https://learn.microsoft.com/en-gb/training/paths/create-computer-vision-solutions-azure-ai/)
 
 <B>M04-01 Analyze images</B>
 - [Azure AI Vision Image Analysis Documentation](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-image-analysis?tabs=4-0)
@@ -60,6 +60,7 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer
 - [Exercise - Generate images with AI](https://go.microsoft.com/fwlink/?linkid=2310727)
 - [Quickstart: Generate images with Azure OpenAI in Azure AI Foundry Models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/dall-e-quickstart?tabs=command-line%2Cgpt-image-1%2Ckeyless%2Ctypescript-keyless&pivots=programming-language-studio)
 
+<br>
 <br>
 
 Extra (From MS Learn)
