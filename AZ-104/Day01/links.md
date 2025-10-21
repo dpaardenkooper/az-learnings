@@ -10,7 +10,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
 
 <B>M01-01 Understand Microsoft Entra ID</B>
-- [Module overview](https://learn.microsoft.com/learn/paths/az-104-manage-identities-governance)
 - [Microsoft Entra tenant definition](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-ad-define)
 - [Entra ID Overview](https://learn.microsoft.com/entra/fundamentals/whatis)
 - [Compare Active Directory to Microsoft Entra ID](https://learn.microsoft.com/en-gb/entra/fundamentals/compare)
@@ -23,7 +22,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 <br>
 
 <B>M01-02 Create, configure, and manage identities</B>
-- [Module overview](https://learn.microsoft.com/en-gb/training/modules/create-configure-manage-identities/)
 - [How to create, invite, and delete users](https://learn.microsoft.com/entra/fundamentals/how-to-create-delete-users)
 - [Create a group with members and view all groups and members](https://learn.microsoft.com/entra/fundamentals/concept-learn-about-groups)
 - [Configure and manage device registration](https://learn.microsoft.com/en-gb/training/modules/create-configure-manage-identities/7-configure-manage-device-registration)
@@ -31,6 +29,10 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Create or update a dynamic membership group in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/users/groups-create-rule)
 - [Assign or unassign licenses for users in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
 
+<br>
+
+<B>Labs</B>
+- [Labs 01](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.html)
 
 <br>
 
@@ -38,7 +40,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
 
 <B>M02-01 Describe the core architectural components of Azure</B>
-- [Module overview](https://learn.microsoft.com/en-gb/training/modules/describe-core-architectural-components-of-azure/)
 - [Data security and compliance with the GDPR](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview)
 - [Azure Region](https://learn.microsoft.com/azure/reliability/regions-overview?source=recommendations)
 - [Region Pairs](https://aka.ms/PairedRegions)
@@ -55,7 +56,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 <br>
 
 <B>M02-02 Azure Policy Initiatives</B>
-- [Module overview](https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/)
 - [What is Azure Policy](https://learn.microsoft.com/en-gb/azure/governance/policy/overview)
 - [Tutorial](https://learn.microsoft.com/azure/governance/policy/tutorials/create-and-manage)
 - [Azure Policy resources](https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/azure-policy-resources)
@@ -67,6 +67,12 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [List role definitions in Azure RBAC](https://learn.microsoft.com/azure/role-based-access-control/role-definitions-list)
 - [RBAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
 - [ABAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
+
+<br>
+
+<B>Labs</B>
+- [Labs 02a](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.html)
+- [Labs 02b](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.html)
 
 <br>
 
@@ -86,3 +92,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Understand the structure and syntax of ARM templates](https://learn.microsoft.com/azure/azure-resource-manager/templates/template-syntax)
 - [What is Bicep?](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep)
 - [Bicep playground](https://aka.ms/bicepdemo)
+
+<B>Labs</B>
+- [Lab 03](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_03b-Manage_Azure_Resources_by_Using_ARM_Templates.html)
+
+<br>
