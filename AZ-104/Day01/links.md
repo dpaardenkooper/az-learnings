@@ -15,8 +15,10 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Entra ID Overview](https://learn.microsoft.com/entra/fundamentals/whatis)
 - [Compare Active Directory to Microsoft Entra ID](https://learn.microsoft.com/en-gb/entra/fundamentals/compare)
 - [Compare Microsoft Entra ID plans](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing?market=nl)
-- [Microsoft Entra ID self-service password reset deployment](https://learn.microsoft.com/entra/identity/authentication/concept-sspr-howitworks)
 - []()
+- [What is self-service password reset in Microsoft Entra ID](https://learn.microsoft.com/en-gb/training/modules/allow-users-reset-their-password/2-self-service-password-reset)
+- [Microsoft Entra ID self-service password reset deployment](https://learn.microsoft.com/entra/identity/authentication/concept-sspr-howitworks)
+- [Implement Microsoft Entra self-service password reset](https://learn.microsoft.com/en-gb/training/modules/allow-users-reset-their-password/3-implement-azure-ad-self-service-password-reset)
 
 <br>
 
@@ -68,56 +70,19 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 <br>
 
-### AAdminister Azure Resources
-- [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
+### Administer Azure Resources
+- [Module](https://learn.microsoft.com/en-gb/training/paths/az-104-administrator-prerequisites/)
 
-<B>M02-01 Describe the core architectural components of Azure</B>
-
-<B>M01-06 Allow users to reset their password with Microsoft Entra self-service password reset</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-<br>
-
-<B>M01-07 Evaluate generative AI performance in Azure AI Foundry portal</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-<br>
-
-<B>M01-08 Get started with prompt flow to develop language model apps in the Azure AI Foundry</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-
-<br>
-<br>
-
-
-
-### Manage identities and governance in Azure
-- [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
-
-<B>M01-01 Understand Microsoft Entra ID</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+<B>M03-01 Describe the core architectural components of Azure</B>
+- [Azure Portal Overview](https://learn.microsoft.com/azure/azure-portal/azure-portal-overview)
+- [Overview of Azure Cloud Shell](https://learn.microsoft.com/azure/cloud-shell/overview)
+- [Get started with Azure PowerShell](https://learn.microsoft.com/powershell/azure/get-started-azureps?view=azps-4.3.0)
+- [Get started with Azure CLI](https://learn.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
 
 <br>
 
+<B>M03-02 Deploy Azure resources with templates</B>
+- [What are ARM templates?](https://learn.microsoft.com/azure/azure-resource-manager/templates/overview)
+- [Understand the structure and syntax of ARM templates](https://learn.microsoft.com/azure/azure-resource-manager/templates/template-syntax)
+- [What is Bicep?](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+- [Bicep playground](https://aka.ms/bicepdemo)
