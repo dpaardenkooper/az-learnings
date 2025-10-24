@@ -9,12 +9,14 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 ### Configure and manage virtual networks for Azure administrators
 - [Module](https://learn.microsoft.com/en-gb/training/paths/az-104-manage-virtual-networks/)
 
+<br>
+
 <B>M04-01 Configure Virtual Networks</B>
 - [What is Azure Virtual Network](https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview)
 - [Design an IP addressing schema for your Azure deployment](https://learn.microsoft.com/en-gb/training/modules/design-ip-addressing-for-azure/)
 - [What is IPAM](https://learn.microsoft.com/nl-nl/azure/virtual-network-manager/concept-ip-address-management)
 - [Github Repo IPAM](https://github.com/Azure/ipam)
-- [https://learn.microsoft.com/azure/virtual-network/virtual-network-public-ip-address](Create, change, or delete IP addresses)
+- [Create, change, or delete IP addresses](https://learn.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)
 - [Public IP SKU](https://learn.microsoft.com/en-gb/azure/virtual-network/ip-services/public-ip-basic-upgrade-guidance#basic-sku-vs-standard-sku)
 
 <br>
@@ -45,6 +47,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 ### Administer Intersite Connectivity
 - [Module](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
 
+<br>
+
 <B>M05-01 Configure VNet Peering</B>
 - [VNet Peering](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
 - [Virtual network peering](https://learn.microsoft.com/azure/virtual-network/virtual-network-peering-overview)
@@ -61,8 +65,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Virtual network service endpoints](https://learn.microsoft.com/en-gb/azure/virtual-network/virtual-network-service-endpoints-overview)
 - [Tutorial: Restrict network access to PaaS resources with virtual network service endpoints using the Azure portal](https://learn.microsoft.com/azure/virtual-network/tutorial-restrict-network-access-to-resources)
 - [Private Link Documentation](https://learn.microsoft.com/azure/private-link/)
-- []()
-- []()
 
 <br>
 
@@ -73,6 +75,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 ### Administer Network Traffic
 - [Module](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
+
+<br>
 
 <B>M06-01 Introduction to Azure Load Balancer</B>
 - [Choose the right loadbalancer](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
