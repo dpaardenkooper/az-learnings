@@ -9,6 +9,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 ### Administer Azure Storage
 - [Module](https://learn.microsoft.com/en-gb/training/paths/az-104-manage-storage/)
 
+<br>
+
 <B>M07-01 Configure Storage Accounts</B>
 - [Introduction to the core Azure Storage services](https://learn.microsoft.com/azure/storage/common/storage-introduction?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
 - [Storage account overview](https://learn.microsoft.com/azure/storage/common/storage-account-overview)
@@ -17,7 +19,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Data redundancy](https://learn.microsoft.com/azure/storage/common/storage-account-upgrade)
 - [Secure access to your storage account](https://learn.microsoft.com/learn/modules/secure-azure-storage-account/)
 - [Configure Azure Storage firewalls and virtual networks](https://learn.microsoft.com/azure/storage/common/storage-network-security)
-- []()
 
 <br>
 
@@ -38,7 +39,6 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Delegate access with a shared access signature](https://learn.microsoft.com/rest/api/storageservices/delegate-access-with-shared-access-signature)
 - [Grant limited access to Azure Storage resources using shared access signatures](https://learn.microsoft.com/azure/storage/common/storage-sas-overview)
 - [SAS parameters](https://learn.microsoft.com/en-gb/training/modules/configure-storage-security/4-identify-uri-sas-parameters)
-- []()
 
 <br>
 
@@ -62,6 +62,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 ### Administer Azure Virtual Machines
 - [Module](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
+
+<br>
 
 <B>M08-01 Introduction to Azure Virtual Machines</B>
 - [Microsoft Applied Skills: Deploy and administer Linux virtual machines on Microsoft Azure](https://learn.microsoft.com/en-gb/credentials/applied-skills/deploy-and-administer-linux-virtual-machines-on-microsoft-azure/)
@@ -89,6 +91,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 ### Administer PaaS Compute Options
 - [Module](https://learn.microsoft.com/en-gb/training/paths/az-104-manage-compute-resources/)
+
+<br>
 
 <B>M09-01 Configure Azure App Service Plans</B>
 - [Azure App Service plan overview](https://learn.microsoft.com/azure/app-service/overview-hosting-plans)
