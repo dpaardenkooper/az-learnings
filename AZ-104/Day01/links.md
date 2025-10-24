@@ -1,4 +1,4 @@
-# AI-104 - Azure Administrator Associate
+# AZ-104 - Azure Administrator Associate
 Links that where shared during the course:
 
 ## Course Syllabus
