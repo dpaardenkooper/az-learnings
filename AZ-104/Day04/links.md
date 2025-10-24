@@ -9,6 +9,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 ### Administer Data Protection
 - [Module](https://learn.microsoft.com/en-gb/training/paths/az-104-monitor-backup-resources/)
 
+<br>
+
 <B>M10-01 Introduction to Azure Backup</B>
 - [What is the Azure Backup service](https://learn.microsoft.com/azure/backup/backup-overview)
 - [Why use Azure Backup](https://learn.microsoft.com/en-gb/azure/backup/backup-overview#why-use-azure-backup)
@@ -41,6 +43,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 ### Administer Monitoring
 - [Module](https://learn.microsoft.com/en-gb/training/modules/configure-vnet-peering/)
+
+<br>
 
 <B>M11-01 Introduction to Azure Monitor</B>
 - [What is Azure Monitor](https://learn.microsoft.com/azure/azure-monitor/overview)
