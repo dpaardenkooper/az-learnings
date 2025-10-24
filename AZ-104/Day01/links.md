@@ -9,12 +9,13 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 ### Manage identities and governance in Azure
 - [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
 
+<br>
+
 <B>M01-01 Understand Microsoft Entra ID</B>
 - [Microsoft Entra tenant definition](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-ad-define)
 - [Entra ID Overview](https://learn.microsoft.com/entra/fundamentals/whatis)
 - [Compare Active Directory to Microsoft Entra ID](https://learn.microsoft.com/en-gb/entra/fundamentals/compare)
 - [Compare Microsoft Entra ID plans](https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing?market=nl)
-- []()
 - [What is self-service password reset in Microsoft Entra ID](https://learn.microsoft.com/en-gb/training/modules/allow-users-reset-their-password/2-self-service-password-reset)
 - [Microsoft Entra ID self-service password reset deployment](https://learn.microsoft.com/entra/identity/authentication/concept-sspr-howitworks)
 - [Implement Microsoft Entra self-service password reset](https://learn.microsoft.com/en-gb/training/modules/allow-users-reset-their-password/3-implement-azure-ad-self-service-password-reset)
@@ -38,6 +39,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 
 ### Administer Governance and Compliance
 - [Module](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
+
+<br>
 
 <B>M02-01 Describe the core architectural components of Azure</B>
 - [Data security and compliance with the GDPR](https://azure.microsoft.com/explore/global-infrastructure/data-residency/#overview)
@@ -92,6 +95,8 @@ https://learn.microsoft.com/en-us/training/courses/az-104t00
 - [Understand the structure and syntax of ARM templates](https://learn.microsoft.com/azure/azure-resource-manager/templates/template-syntax)
 - [What is Bicep?](https://learn.microsoft.com/azure/azure-resource-manager/bicep/overview?tabs=bicep)
 - [Bicep playground](https://aka.ms/bicepdemo)
+
+<br>
 
 <B>Labs</B>
 - [Lab 03](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_03b-Manage_Azure_Resources_by_Using_ARM_Templates.html)
