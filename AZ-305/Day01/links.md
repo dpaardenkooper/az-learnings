@@ -57,13 +57,17 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 
 <br>
 
-
 <B>M01-07 Design for Landing Zones</B>
 - [What are Azure Landing Zones](https://learn.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone/)
 - [Choose the best Azure landing zone to support your requirements for cloud operations](https://learn.microsoft.com/learn/modules/cloud-adoption-framework-ready/)
 - [Azure Landing Zones - Community calls](https://github.com/Azure/Enterprise-Scale/wiki/Community-Calls)
 - [Build a cloud governance strategy on Azure - Learn | Microsoft Docs](https://learn.microsoft.com/learn/modules/build-cloud-governance-strategy-azure/)
 - [Introduction to the Microsoft Azure Well Architected Framework](https://learn.microsoft.com/training/modules/azure-well-architected-introduction/)
+
+<br>
+
+<B>Case Study</B>
+- [Design a governance solution](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/01-Governance.html)
 
 <br>
 
@@ -137,5 +141,11 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 - [Logic App overview](https://learn.microsoft.com/azure/logic-apps/logic-apps-overview)
 - [Differences between a Logic App and Azure Functions](https://learn.microsoft.com/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs#compare-azure-functions-and-azure-logic-apps)
 - [Azure Logic App Documentation](https://learn.microsoft.com/azure/logic-apps/)
+
+<br>
+
+
+<B>Case Study</B>
+- [Design a compute solution](https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/Instructions/CaseStudy/02-Compute.html)
 
 <br>
