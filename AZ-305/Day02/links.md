@@ -136,11 +136,6 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 - [CosmoDB overview](https://learn.microsoft.com/en-gb/azure/cosmos-db/introduction)
 - [What is Azure Cosmos DB for Table](https://learn.microsoft.com/en-us/azure/cosmos-db/table/introduction)
 - [Azure Cosmos DB APIs are support](https://learn.microsoft.com/azure/cosmos-db/choose-api#considerations-when-choosing-an-api)
-- []()
-- []()
-- []()
-- []()
-- []()
 
 <br>
 
@@ -186,37 +181,22 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 
 <B>M05-04 Design a data integration and analytics solution with Azure Synapse Analytics</B>
 - [Azure Synapse Analytics overview](https://learn.microsoft.com/azure/synapse-analytics/overview-what-is)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Data integration in Azure Synapse Analytics versus Azure Data Factory](https://learn.microsoft.com/en-gb/azure/synapse-analytics/data-integration/concepts-data-factory-differences#available-features-in-adf--azure-synapse-analytics)
+- [Azure Fabric documentation](https://learn.microsoft.com/fabric/)
 
 <br>
 
-<B>M05-05 Design Azure Stream Analytics solution for Data Analysis</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+<B>M05-05 Design a strategy for hot/warm/cold data path</B>
+- [Design strategies for hot, warm, and cold data paths](https://learn.microsoft.com/en-us/training/modules/design-data-integration/6-design-strategy-for-hot-warm-cold-data-path)
 
 <br>
 
-<B>M05-06 Design a strategy for hot/warm/cold data path</B>
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+<B>M05-06 Design Azure Stream Analytics solution for Data Analysis</B>
+- [Azure Stream Analytics overview](https://learn.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
+- [Design an Azure Stream Analytics solution for data analysi](https://learn.microsoft.com/en-us/training/modules/design-data-integration/7-design-azure-stream-analytics-solution-for-data-analysis)
+
+<br>
+
 
 <br>
 
