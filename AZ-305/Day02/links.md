@@ -7,7 +7,7 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 <br>
 
 ### Design a data storage solution for non-relational data
-- [Module](hhttps://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/)
+- [Module](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/)
 
 <br>
 
@@ -194,9 +194,6 @@ https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
 <B>M05-06 Design Azure Stream Analytics solution for Data Analysis</B>
 - [Azure Stream Analytics overview](https://learn.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
 - [Design an Azure Stream Analytics solution for data analysi](https://learn.microsoft.com/en-us/training/modules/design-data-integration/7-design-azure-stream-analytics-solution-for-data-analysis)
-
-<br>
-
 
 <br>
 
