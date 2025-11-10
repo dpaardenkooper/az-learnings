@@ -7,7 +7,7 @@ If you want to have more practical information, check the links below:
 
 Microsoft Learn
 - Designing Microsoft Azure Infrastructure Solutions: [https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/)
-- Study guide for Exam AZ-305: [https://arch-center.azureedge.net/Learning/Credentials/exam-az-305-designing-microsoft-azure-infrastructure-solutions-skills-measured.pdf](https://arch-center.azureedge.net/Learning/Credentials/exam-az-305-designing-microsoft-azure-infrastructure-solutions-skills-measured.pdf)
+- Study guide for Exam AZ-305: [https://learn.microsoft.com/en-gb/training/courses/az-140t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786#study-guide](https://learn.microsoft.com/en-gb/training/courses/az-140t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786#study-guide)
 <br>
 
 **Exam prep**
