@@ -15,7 +15,7 @@ Microsoft Learn
 
 <br>
 **Learning from video's**
-- Introduction – AZ-305 Certification Course [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-305-01-fy25)
+- Introduction – AZ-305 Certification Course [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-305-01-fy25]
 - AZ-900 Azure Fundamentals Study Cram [https://www.youtube.com/watch?v=vq9LuCM4YP4&list=PLlVtbbG169nHSnaP4ae33yQUI3zcmP5nP](https://www.youtube.com/watch?v=vq9LuCM4YP4&list=PLlVtbbG169nHSnaP4ae33yQUI3zcmP5nP)
 
 <br>
