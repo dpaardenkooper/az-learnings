@@ -2,7 +2,7 @@
 Links that where shared during the course:
 
 ## Course Syllabus
-https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/
+https://learn.microsoft.com/en-gb/training/courses/az-140t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786#study-guide
 
 <br>
 
