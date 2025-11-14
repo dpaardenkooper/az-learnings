@@ -18,7 +18,7 @@ If you want to have more practical information, check the links below:
 <br>
 
 **Learning from video's**
-- [Introduction – AZ-305 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-300)
+- [Introduction – SC-300 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-300)
 - [SC-300 Microsoft Identity and Access Administrator Study Cram](https://www.youtube.com/watch?v=LGpgqRVG65g)
 - [Microsoft Learn course material](https://www.youtube.com/playlist?list=PLahhVEj9XNTf6lWUbZLBNULQ7uVqM5Sad)
 
