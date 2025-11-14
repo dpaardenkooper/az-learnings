@@ -1,23 +1,25 @@
 Hi there!
 
-Here in this repo you can find the shared links, which was covered in the AZ-500 training, per module!
+Here in this repo you can find the shared links, which was covered in the SC-100 training, per module!
 
 If you want to have more practical information, check the links below:
 <br>
 
-Microsoft Learn
-- Microsoft Cybersecurity Architect: [https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/](https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/)
-- Study guide for Exam SC-100: [https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-100](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/sc-100)
+**Microsoft Learn**
+- [Study guide](https://learn.microsoft.com/en-gb/training/courses/sc-100t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786#study-guide)
+- [Exam registration](https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786)
+
 <br>
 
 **Exam prep**
-- Practice exam: [https://learn.microsoft.com/en-gb/credentials/certifications/exams/sc-100/practice/assessment?assessment-type=practice&assessmentId=87](https://learn.microsoft.com/en-gb/credentials/certifications/exams/sc-100/practice/assessment?assessment-type=practice&assessmentId=87)
+- [Practice exam](https://learn.microsoft.com/en-gb/credentials/certifications/exams/sc-100/practice/assessment?assessment-type=practice&assessmentId=87)
+
 <br>
 
 **Learning from video's**
-- Design solutions that align with security best practices and priorities: [https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-100](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-100)
-- SC-100 Cybersecurity Architect Expert Certification Study Cram [AZ-900 Azure Fundamentals Study Cram https://www.youtube.com/watch?v=2Qu5gQjNQh4&list=PLlVtbbG169nHcbeVtWUfP8BeEjGniBJeb](https://www.youtube.com/watch?v=2Qu5gQjNQh4&list=PLlVtbbG169nHcbeVtWUfP8BeEjGniBJeb)
-<br>
+- [Introduction – SC-100 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-100](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=sc-100)
+- [SC-100 Cybersecurity Architect Expert Certification Study Cram](https://www.youtube.com/watch?v=2Qu5gQjNQh4&list=PLlVtbbG169nHcbeVtWUfP8BeEjGniBJeb)
+- [Microsoft Learn course material](https://www.youtube.com/playlist?list=PLahhVEj9XNTfRZMathQ5fn1akTwV7R3w_)
 
 Thnx for following the training and good luck with achieving your exam!
 
