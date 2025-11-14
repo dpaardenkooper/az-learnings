@@ -7,7 +7,7 @@ If you want to have more practical information, check the links below:
 
 **Microsoft Learn**
 - [Study guide](https://learn.microsoft.com/en-gb/training/courses/sc-300t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786#study-guide)
-- [Exam registration](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786)
+- [Exam registration](https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-300/?WT.mc_id=ilt_partner_webpage_wwl&ocid=6539786)
 - [Microsoft Applied Skills](https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-with-identities-and-access-using-microsoft-entra/)
 
 <br>
