@@ -38,28 +38,26 @@ https://learn.microsoft.com/en-gb/training/courses/sc-300t00?WT.mc_id=ilt_partne
 <B>M02-03 Implement and manage external identities</B>
 - [Microsoft 365 admin center](https://admin.microsoft.com)
 - [Entra admin center](https://entra.microsoft.com)
+- [Invite external users - individually and in bulk](https://learn.microsoft.com/en-gb/training/modules/implement-manage-external-identities/7-exercise-invite-guest-users-bulk)
+- [Demo manage guest user access in Azure AD for B2B collaboration](https://mslearn.cloudguides.com/guides/Manage%20Guest%20User%20Access%20in%20Azure%20AD%20for%20B2B%20Collaboration)
 - [cross-tenant synchronization overview](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-overview)
 - [Configure cross-tenant synchronization](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure)
 - [Configure your tenant for Microsoft Entra Verified ID](https://learn.microsoft.com/en-us/entra/verified-id/verifiable-credentials-configure-tenant)
 - [Microsoft Entra Verified ID from an application](https://learn.microsoft.com/en-us/entra/verified-id/verifiable-credentials-configure-issuer)
-- []()
-- []()
-- []()
-- []()
+- [Dynamic groups overview](https://learn.microsoft.com/en-us/entra/external-id/use-dynamic-groups)
+- [Dynamic groups exercise](https://learn.microsoft.com/en-gb/training/modules/implement-manage-external-identities/11-exercise-explore-dynamic-groups)
+- [Configure identity providers](https://learn.microsoft.com/en-gb/training/modules/implement-manage-external-identities/13-configure-identity-providers)
 
 <br>
 
 <B>M02-04 Implement and manage hybrid identity</B>
 - [Microsoft Entra Connect cloud sync overview](https://learn.microsoft.com/en-us/entra/identity/hybrid/cloud-sync/what-is-cloud-sync)
 - [Microsoft Entra Connect cloud sync deep dive - how it works](https://learn.microsoft.com/en-us/entra/identity/hybrid/cloud-sync/concept-how-it-works)
+- [Trouble-shoot synchronization errors](https://learn.microsoft.com/en-gb/training/modules/implement-manage-hybrid-identity/7-trouble-shoot-synchronization-errors)
 - [How to set up SSO](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-sso-quick-start)
 - [Azure Service Health](https://portal.azure.com/#view/Microsoft_Azure_Health/AzureHealthBrowseBlade/~/serviceIssues)
 - [Azure Status](https://azure.status.microsoft/en-gb/status)
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Manage Microsoft Entra Health](https://learn.microsoft.com/en-gb/training/modules/implement-manage-hybrid-identity/9-manage-azure-active-directory-connect-health)
 
 <br>
 
