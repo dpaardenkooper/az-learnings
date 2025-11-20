@@ -50,6 +50,8 @@ https://learn.microsoft.com/en-gb/training/courses/sc-300t00?WT.mc_id=ilt_partne
 <B>M04-04 Implement app registrations</B>
 - [Register an application](https://learn.microsoft.com/en-gb/training/modules/implement-app-registration/4-register-application)
 - [Configure permission for an application](https://learn.microsoft.com/en-gb/training/modules/implement-app-registration/5-configure-application-permission)
+- [App governance in Microsoft Defender for Cloud Apps](https://learn.microsoft.com/en-us/defender-cloud-apps/app-governance-manage-app-governance)
+- [Configure adaptive session lifetime policies](https://learn.microsoft.com/en-us/entra/identity/conditional-access/howto-conditional-access-session-lifetime)
 
 <br>
 
