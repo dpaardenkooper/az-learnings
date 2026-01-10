@@ -20,7 +20,6 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer
 - [Develop AI information extraction solutions in Azure](https://learn.microsoft.com/en-us/training/paths/ai-extract-information/)
 - [Create a multimodal analysis solution with Azure AI Content Understanding](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/)
 - [Exercise - Read text in images](https://go.microsoft.com/fwlink/?linkid=2320100)
-- []()
 
 <br>
 
