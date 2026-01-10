@@ -1,4 +1,4 @@
-# AI-102 - Azure AI Engineer Associate
+# Develop generative AI solutions in Azure
 Links that where shared during the course:
 
 ## Course Syllabus
