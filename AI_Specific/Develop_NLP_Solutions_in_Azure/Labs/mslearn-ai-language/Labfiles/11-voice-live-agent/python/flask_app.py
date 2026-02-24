@@ -201,6 +201,39 @@ class BasicVoiceAssistant:
     """
 
     # BEGIN VOICE LIVE ASSISTANT IMPLEMENTATION - ALIGN CODE WITH COMMENT
+    def __init__(
+    self,
+    endpoint: str,
+    credential,
+    model: str,
+    voice: str,
+    instructions: str,
+    state_callback=None,
+):
+    # Store Azure Voice Live connection and configuration parameters
+    self.endpoint = endpoint
+    self.credential = credential
+    self.model = model
+    self.voice = voice
+    self.instructions = instructions
+
+    # Initialize runtime state - connection established in start()
+    self.connection = None
+    self._response_cancelled = False  # Used to handle user interruptions
+    self._stopping = False  # Signals graceful shutdown
+    self.state_callback = state_callback or (lambda *_: None)
+
+async def start(self):
+    # Import Voice Live SDK components needed for establishing connection and configuring session
+    from azure.ai.voicelive.aio import connect  # type: ignore
+    from azure.ai.voicelive.models import (
+        RequestSession,
+        ServerVad,
+        AzureStandardVoice,
+        Modality,
+        InputAudioFormat,
+        OutputAudioFormat,
+    )  # type: ignore
 
 
     
@@ -228,6 +261,16 @@ class BasicVoiceAssistant:
                     voice_cfg = self.voice
 
                 # BEGIN CONFIGURE VOICE LIVE SESSION - ALIGN CODE WITH COMMENT
+                # Configure VoiceLive session with audio/text modalities and voice activity detection
+                session_config = RequestSession(
+                    modalities=[Modality.TEXT, Modality.AUDIO],
+                    instructions=self.instructions,
+                    voice=voice_cfg,
+                    input_audio_format=InputAudioFormat.PCM16,
+                    output_audio_format=OutputAudioFormat.PCM16,
+                    turn_detection=ServerVad(threshold=0.5, prefix_padding_ms=300, silence_duration_ms=500),
+                )
+                await conn.session.update(session=session_config)
 
 
 
@@ -258,6 +301,90 @@ class BasicVoiceAssistant:
             logger.error("Failed to append audio: %s", e)
 
     # BEGIN HANDLE SESSION EVENTS - ALIGN CODE WITH COMMENT
+    async def _handle_event(self, event, conn, verbose=False):
+        """Handle Voice Live events with clear separation by event type."""
+        # Import event types for processing different Voice Live server events
+        from azure.ai.voicelive.models import ServerEventType
+
+        event_type = event.type
+        if verbose:
+            _broadcast({"type": "log", "level": "debug", "event_type": str(event_type)})
+
+        # Route Voice Live server events to appropriate handlers
+        if event_type == ServerEventType.SESSION_UPDATED:
+            await self._handle_session_updated()
+        elif event_type == ServerEventType.INPUT_AUDIO_BUFFER_SPEECH_STARTED:
+            await self._handle_speech_started(conn)
+        elif event_type == ServerEventType.INPUT_AUDIO_BUFFER_SPEECH_STOPPED:
+            await self._handle_speech_stopped()
+        elif event_type == ServerEventType.RESPONSE_AUDIO_DELTA:
+            await self._handle_audio_delta(event)
+        elif event_type == ServerEventType.RESPONSE_AUDIO_DONE:
+            await self._handle_audio_done()
+        elif event_type == ServerEventType.RESPONSE_DONE:
+            # Reset cancellation flag but don't change state - _handle_audio_done already did
+            self._response_cancelled = False
+        elif event_type == ServerEventType.ERROR:
+            await self._handle_error(event)
+
+    async def _handle_session_updated(self):
+        """Session is ready for conversation."""
+        self.state_callback("ready", "Session ready. You can start speaking now.")
+
+    async def _handle_speech_started(self, conn):
+        """User started speaking - handle interruption if needed."""
+        self.state_callback("listening", "Listening… speak now")
+
+        try:
+            # Stop any ongoing audio playback on the client side
+            _broadcast({"type": "control", "action": "stop_playback"})
+
+            # If assistant is currently speaking or processing, cancel the response to allow interruption
+            current_state = assistant_state.get("state")
+            if current_state in {"assistant_speaking", "processing"}:
+                self._response_cancelled = True
+                await conn.response.cancel()
+                _broadcast({"type": "log", "level": "debug",
+                        "msg": f"Interrupted assistant during {current_state}"})
+            else:
+                _broadcast({"type": "log", "level": "debug",
+                        "msg": f"User speaking during {current_state} - no cancellation needed"})
+        except Exception as e:
+            _broadcast({"type": "log", "level": "debug",
+                    "msg": f"Exception in speech handler: {e}"})
+
+    async def _handle_speech_stopped(self):
+        """User stopped speaking - processing input."""
+        self.state_callback("processing", "Processing your input…")
+
+    async def _handle_audio_delta(self, event):
+        """Stream assistant audio to clients."""
+        if self._response_cancelled:
+            return  # Skip cancelled responses
+
+        # Update state when assistant starts speaking
+        if assistant_state.get("state") != "assistant_speaking":
+            self.state_callback("assistant_speaking", "Assistant speaking…")
+
+        # Extract and broadcast Voice Live audio delta as base64 to WebSocket clients
+        audio_data = getattr(event, "delta", None)
+        if audio_data:
+            audio_b64 = base64.b64encode(audio_data).decode("utf-8")
+            _broadcast({"type": "audio", "audio": audio_b64})
+
+    async def _handle_audio_done(self):
+        """Assistant finished speaking."""
+        self._response_cancelled = False
+        self.state_callback("ready", "Assistant finished. You can speak again.")
+
+    async def _handle_error(self, event):
+        """Handle Voice Live errors."""
+        error = getattr(event, "error", None)
+        message = getattr(error, "message", "Unknown error") if error else "Unknown error"
+        self.state_callback("error", f"Error: {message}")
+
+    def request_stop(self):
+        self._stopping = True
 
 
 
