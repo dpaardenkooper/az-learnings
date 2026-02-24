@@ -10,6 +10,13 @@ class TitleAgent:
     def __init__(self):
 
         # Create the agents client
+        self.client = AgentsClient(
+            endpoint=os.environ['PROJECT_ENDPOINT'],
+            credential=DefaultAzureCredential(
+                exclude_environment_credential=True,
+                exclude_managed_identity_credential=True
+            )
+        )
 
 
         self.agent: Agent | None = None
@@ -19,6 +26,14 @@ class TitleAgent:
             return self.agent
 
         # Create the title agent
+        self.agent = self.client.create_agent(
+            model=os.environ['MODEL_DEPLOYMENT_NAME'],
+            name='title-agent',
+            instructions="""
+            You are a helpful writing assistant.
+            Given a topic the user wants to write about, suggest a single clear and catchy blog post title.
+            """,
+        )
 
 
         return self.agent
@@ -30,12 +45,14 @@ class TitleAgent:
             await self.create_agent()
 
         # Create a thread for the chat session
+        thread = self.client.threads.create()
 
 
         # Send user message
-        
+        self.client.messages.create(thread_id=thread.id, role=MessageRole.USER, content=user_message)
 
         # Create and run the agent
+        run = self.client.runs.create_and_process(thread_id=thread.id, agent_id=self.agent.id)
 
 
         if run.status == 'failed':
