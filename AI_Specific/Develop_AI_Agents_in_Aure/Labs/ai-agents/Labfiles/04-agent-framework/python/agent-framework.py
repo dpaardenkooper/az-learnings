@@ -3,8 +3,8 @@ import asyncio
 from pathlib import Path
 
 # Add references
-# from agent_framework import tool, Agent
-# from agent_framework.azure import AzureAIAgentClient
+from agent_framework import tool
+from agent_framework.azure import AzureAIAgentClient
 from azure.identity.aio import AzureCliCredential
 from pydantic import Field
 from typing import Annotated
