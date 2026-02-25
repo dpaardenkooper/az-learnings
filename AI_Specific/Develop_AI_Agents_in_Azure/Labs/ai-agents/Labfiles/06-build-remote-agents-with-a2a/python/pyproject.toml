@@ -3,7 +3,7 @@ name = "06-build-remote-agents-with-a2a"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "",email = ""}
+    {name = "",email = "test@test.com"}
 ]
 requires-python = ">=3.10,<3.14"
 dependencies = [
