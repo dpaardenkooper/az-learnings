@@ -1,0 +1,27 @@
+[project]
+name = "07-agent-framework"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "test",email = "test@test.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "azure-identity[aio] (>=1.25.2,<2.0.0)",
+    "agent-framework (==1.0.0b260212)",
+    "black (>=26.1.0,<27.0.0)",
+    "flake8-black (>=0.4.0,<0.5.0)",
+    "isort (>=8.0.0,<9.0.0)",
+    "opentelemetry-semantic-conventions-ai (==0.4.13)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
