@@ -1,15 +1,14 @@
 import os
-from dotenv import load_dotenv
 
 # Add references
 from azure.ai.agents import AgentsClient
-from azure.ai.agents.models import ConnectedAgentTool, MessageRole, ListSortOrder, ToolSet, FunctionTool
+from azure.ai.agents.models import (ConnectedAgentTool, FunctionTool,
+                                    ListSortOrder, MessageRole, ToolSet)
 from azure.identity import DefaultAzureCredential
-
-
+from dotenv import load_dotenv
 
 # Clear the console
-os.system('cls' if os.name=='nt' else 'clear')
+os.system("cls" if os.name == "nt" else "clear")
 
 # Load environment variables from .env file
 load_dotenv()
@@ -19,16 +18,14 @@ model_deployment = os.getenv("MODEL_DEPLOYMENT_NAME")
 
 # Connect to the agents client
 agents_client = AgentsClient(
-     endpoint=project_endpoint,
-     credential=DefaultAzureCredential(
-         exclude_environment_credential=True, 
-         exclude_managed_identity_credential=True
-     ),
+    endpoint=project_endpoint,
+    credential=DefaultAzureCredential(
+        exclude_environment_credential=True, exclude_managed_identity_credential=True
+    ),
 )
 
 
 with agents_client:
-
 
     # Create an agent to prioritize support tickets
     priority_agent_name = "priority_agent"
@@ -46,11 +43,8 @@ with agents_client:
     priority_agent = agents_client.create_agent(
         model=model_deployment,
         name=priority_agent_name,
-        instructions=priority_agent_instructions
+        instructions=priority_agent_instructions,
     )
-
-
-
 
     # Create an agent to assign tickets to the appropriate team
     team_agent_name = "team_agent"
@@ -69,10 +63,8 @@ with agents_client:
     team_agent = agents_client.create_agent(
         model=model_deployment,
         name=team_agent_name,
-        instructions=team_agent_instructions
+        instructions=team_agent_instructions,
     )
-
-
 
     # Create an agent to estimate effort for a support ticket
     effort_agent_name = "effort_agent"
@@ -90,31 +82,27 @@ with agents_client:
     effort_agent = agents_client.create_agent(
         model=model_deployment,
         name=effort_agent_name,
-        instructions=effort_agent_instructions
+        instructions=effort_agent_instructions,
     )
-
-
 
     # Create connected agent tools for the support agents
     priority_agent_tool = ConnectedAgentTool(
-        id=priority_agent.id, 
-        name=priority_agent_name, 
-        description="Assess the priority of a ticket"
-    )
-        
-    team_agent_tool = ConnectedAgentTool(
-        id=team_agent.id, 
-        name=team_agent_name, 
-        description="Determines which team should take the ticket"
-    )
-        
-    effort_agent_tool = ConnectedAgentTool(
-        id=effort_agent.id, 
-        name=effort_agent_name, 
-        description="Determines the effort required to complete the ticket"
+        id=priority_agent.id,
+        name=priority_agent_name,
+        description="Assess the priority of a ticket",
     )
 
-    
+    team_agent_tool = ConnectedAgentTool(
+        id=team_agent.id,
+        name=team_agent_name,
+        description="Determines which team should take the ticket",
+    )
+
+    effort_agent_tool = ConnectedAgentTool(
+        id=effort_agent.id,
+        name=effort_agent_name,
+        description="Determines the effort required to complete the ticket",
+    )
 
     # Create an agent to triage support ticket processing by using connected agents
     triage_agent_name = "triage-agent"
@@ -130,41 +118,41 @@ with agents_client:
         tools=[
             priority_agent_tool.definitions[0],
             team_agent_tool.definitions[0],
-            effort_agent_tool.definitions[0]
-        ]
+            effort_agent_tool.definitions[0],
+        ],
     )
-    
-    
 
     # Use the agents to triage a support issue
     print("Creating agent thread.")
-    thread = agents_client.threads.create()  
+    thread = agents_client.threads.create()
 
     # Create the ticket prompt
     prompt = input("\nWhat's the support problem you need to resolve?: ")
-        
+
     # Send a prompt to the agent
     message = agents_client.messages.create(
         thread_id=thread.id,
         role=MessageRole.USER,
         content=prompt,
-    )   
-        
+    )
+
     # Run the thread usng the primary agent
     print("\nProcessing agent thread. Please wait.")
-    run = agents_client.runs.create_and_process(thread_id=thread.id, agent_id=triage_agent.id)
-            
+    run = agents_client.runs.create_and_process(
+        thread_id=thread.id, agent_id=triage_agent.id
+    )
+
     if run.status == "failed":
         print(f"Run failed: {run.last_error}")
 
     # Fetch and display messages
-    messages = agents_client.messages.list(thread_id=thread.id, order=ListSortOrder.ASCENDING)
+    messages = agents_client.messages.list(
+        thread_id=thread.id, order=ListSortOrder.ASCENDING
+    )
     for message in messages:
         if message.text_messages:
             last_msg = message.text_messages[-1]
             print(f"{message.role}:\n{last_msg.text.value}\n")
-
-
 
     # Clean up
     print("Cleaning up agents:")
@@ -176,4 +164,3 @@ with agents_client:
     print("Deleted team agent.")
     agents_client.delete_agent(effort_agent.id)
     print("Deleted effort agent.")
-
