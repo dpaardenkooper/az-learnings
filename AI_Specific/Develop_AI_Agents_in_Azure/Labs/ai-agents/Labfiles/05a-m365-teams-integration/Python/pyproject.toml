@@ -1,0 +1,22 @@
+[project]
+name = "05a-m365-teams-integration"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "test",email = "test@test.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv (>=1.0.0)",
+    "azure-ai-projects (>=1.0.0b4)",
+    "azure-identity (>=1.19.0)",
+    "black (>=26.1.0,<27.0.0)",
+    "flake8-black (>=0.4.0,<0.5.0)",
+    "isort (>=8.0.0,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
