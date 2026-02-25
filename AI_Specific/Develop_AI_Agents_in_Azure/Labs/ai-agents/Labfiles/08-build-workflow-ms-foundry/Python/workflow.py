@@ -1,11 +1,10 @@
 import os
-from dotenv import load_dotenv
 
-# Add references
-from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import ItemType
-
+# Add references
+from azure.identity import DefaultAzureCredential
+from dotenv import load_dotenv
 
 load_dotenv()
 endpoint = os.environ["PROJECT_ENDPOINT"]
@@ -18,14 +17,11 @@ with (
     project_client.get_openai_client() as openai_client,
 ):
 
-
     # Specify the workflow
     workflow = {
         "name": "ContosoPay-Customer-Support-Triage",
         "version": "1",
     }
-    
-    
 
     # Create a conversation and run the workflow
     conversation = openai_client.conversations.create()
@@ -39,21 +35,22 @@ with (
         metadata={"x-ms-debug-mode-enabled": "1"},
     )
 
-
     # Process events from the workflow run
     for event in stream:
-        if (event.type == "response.completed"):
+        if event.type == "response.completed":
             print("\nResponse completed:")
             for message in event.response.output:
                 if message.content:
                     for content_item in message.content:
-                        if content_item.type == 'output_text':
+                        if content_item.type == "output_text":
                             print(content_item.text)
-        if (event.type == "response.output_item.done") and event.item.type == ItemType.WORKFLOW_ACTION:
-            print(f"item action ID '{event.item.action_id}' is '{event.item.status}' (previous action ID: '{event.item.previous_action_id}')")
- 
+        if (
+            event.type == "response.output_item.done"
+        ) and event.item.type == ItemType.WORKFLOW_ACTION:
+            print(
+                f"item action ID '{event.item.action_id}' is '{event.item.status}' (previous action ID: '{event.item.previous_action_id}')"
+            )
 
     # Clean up resources
     openai_client.conversations.delete(conversation_id=conversation.id)
     print("\nConversation deleted")
-

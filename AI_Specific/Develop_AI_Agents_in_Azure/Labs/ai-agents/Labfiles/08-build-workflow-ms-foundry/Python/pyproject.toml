@@ -1,0 +1,35 @@
+[project]
+name = "08-build-workflw-ms-foundry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "",email = "test@test.com"}
+]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "agent-framework (==1.0.0b260130)",
+    "opentelemetry-semantic-conventions-ai (==0.4.13)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "azure-identity (>=1.25.2,<2.0.0)",
+    "uvicorn (>=0.41.0,<0.42.0)",
+    "starlette (>=0.52.1,<0.53.0)",
+    "sse-starlette (>=3.2.0,<4.0.0)",
+    "fastapi (>=0.133.0,<0.134.0)",
+    "azure-ai-projects (==2.0.0b3)",
+    "azure-ai-agents (>=1.1.0,<2.0.0)",
+    "a2a-sdk (>=0.3.24,<0.4.0)",
+    "flake8-black (>=0.4.0,<0.5.0)",
+    "black (>=26.1.0,<27.0.0)",
+    "isort (>=8.0.0,<9.0.0)",
+    "aiohttp (>=3.13.3,<4.0.0)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
