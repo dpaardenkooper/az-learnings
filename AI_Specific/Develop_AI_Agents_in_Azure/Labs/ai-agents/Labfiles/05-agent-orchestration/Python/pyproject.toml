@@ -3,12 +3,15 @@ name = "05-agent-orchestration"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "d.paardenkooper",email = "d.paardenkooper@it-impressive.nl"}
+    {name = "test",email = "test@test.com"}
 ]
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "agent-framework (==1.0.0b260130)",
-    "opentelemetry-semantic-conventions-ai (==0.4.13)"
+    "opentelemetry-semantic-conventions-ai (==0.4.13)",
+    "black (>=26.1.0,<27.0.0)",
+    "flake8-black (>=0.4.0,<0.5.0)",
+    "isort (>=8.0.0,<9.0.0)"
 ]
 
 
