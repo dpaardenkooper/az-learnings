@@ -1,31 +1,31 @@
 import os
-from dotenv import load_dotenv
-from typing import Any
 from pathlib import Path
+from typing import Any
 
-
+from azure.ai.projects import AIProjectClient
+from azure.ai.projects.models import (CodeInterpreterTool,
+                                      CodeInterpreterToolAuto,
+                                      PromptAgentDefinition)
 # Add references
 from azure.identity import DefaultAzureCredential
-from azure.ai.projects import AIProjectClient
-from azure.ai.projects.models import PromptAgentDefinition, CodeInterpreterTool, CodeInterpreterToolAuto
+from dotenv import load_dotenv
 
 
-
-def main(): 
+def main():
 
     # Clear the console
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
     # Load environment variables from .env file
     load_dotenv()
-    project_endpoint= os.getenv("PROJECT_ENDPOINT")
+    project_endpoint = os.getenv("PROJECT_ENDPOINT")
     model_deployment = os.getenv("MODEL_DEPLOYMENT_NAME")
 
     # Display the data to be analyzed
     script_dir = Path(__file__).parent  # Get the directory of the script
-    file_path = script_dir / 'data.txt'
+    file_path = script_dir / "data.txt"
 
-    with file_path.open('r') as file:
+    with file_path.open("r") as file:
         data = file.read() + "\n"
         print(data)
 
@@ -33,11 +33,13 @@ def main():
     with (
         DefaultAzureCredential(
             exclude_environment_credential=True,
-            exclude_managed_identity_credential=True) as credential,
-        AIProjectClient(endpoint=project_endpoint, credential=credential) as project_client,
-        project_client.get_openai_client() as openai_client
+            exclude_managed_identity_credential=True,
+        ) as credential,
+        AIProjectClient(
+            endpoint=project_endpoint, credential=credential
+        ) as project_client,
+        project_client.get_openai_client() as openai_client,
     ):
-    
 
         # Upload the data file and create a CodeInterpreterTool
         file = openai_client.files.create(
@@ -48,7 +50,6 @@ def main():
         code_interpreter = CodeInterpreterTool(
             container=CodeInterpreterToolAuto(file_ids=[file.id])
         )
-        
 
         # Define an agent that uses the CodeInterpreterTool
         agent = project_client.agents.create_version(
@@ -60,11 +61,9 @@ def main():
             ),
         )
         print(f"Using agent: {agent.name}")
-        
 
         # Create a conversation for the chat session
         conversation = openai_client.conversations.create()
-        
 
         # Loop until the user types 'quit'
         while True:
@@ -87,16 +86,13 @@ def main():
                 extra_body={"agent": {"name": agent.name, "type": "agent_reference"}},
                 input="",
             )
-            
 
             # Check the response status for failures
             if response.status == "failed":
                 print(f"Response failed: {response.error}")
-            
 
             # Show the latest response from the agent
             print(f"Agent: {response.output_text}")
-            
 
         # Get the conversation history
         print("\nConversation Log:\n")
@@ -108,14 +104,15 @@ def main():
                 content = item.content[0].text
                 print(f"{role}: {content}\n")
 
-
         # Clean up
         openai_client.conversations.delete(conversation_id=conversation.id)
         print("Conversation deleted")
 
-        project_client.agents.delete_version(agent_name=agent.name, agent_version=agent.version)
+        project_client.agents.delete_version(
+            agent_name=agent.name, agent_version=agent.version
+        )
         print("Agent deleted")
 
 
-if __name__ == '__main__': 
+if __name__ == "__main__":
     main()
