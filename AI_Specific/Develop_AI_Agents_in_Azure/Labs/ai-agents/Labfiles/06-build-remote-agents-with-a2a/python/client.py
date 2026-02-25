@@ -1,7 +1,8 @@
-""" Client code that connects to the routing agent """
+"""Client code that connects to the routing agent"""
 
-import os
 import asyncio
+import os
+
 import requests
 from dotenv import load_dotenv
 
@@ -9,6 +10,7 @@ load_dotenv()
 
 server = os.environ["SERVER_URL"]
 port = os.environ["ROUTING_AGENT_PORT"]
+
 
 def send_prompt(prompt: str):
     url = f"http://{server}:{port}/message"
@@ -22,6 +24,7 @@ def send_prompt(prompt: str):
     except Exception as e:
         return f"Request failed: {e}"
 
+
 async def main():
     print("Enter a prompt for the agent. Type 'quit' to exit.")
     while True:
@@ -31,6 +34,7 @@ async def main():
             break
         response = send_prompt(user_input)
         print(f"Agent: {response}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

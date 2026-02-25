@@ -1,13 +1,14 @@
-""" Runs each agent server and starts the client """
+"""Runs each agent server and starts the client"""
 
 import asyncio
+import os
+import signal
 import subprocess
 import sys
-import time
-import signal
-import httpx
-import os
 import threading
+import time
+
+import httpx
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -17,21 +18,22 @@ servers = [
     {
         "name": "title_agent_server",
         "module": "title_agent.server:app",
-        "port": os.environ["TITLE_AGENT_PORT"]
+        "port": os.environ["TITLE_AGENT_PORT"],
     },
     {
         "name": "outline_agent_server",
         "module": "outline_agent.server:app",
-        "port": os.environ["OUTLINE_AGENT_PORT"]
+        "port": os.environ["OUTLINE_AGENT_PORT"],
     },
     {
         "name": "routing_agent_server",
         "module": "routing_agent.server:app",
-        "port": os.environ["ROUTING_AGENT_PORT"]
+        "port": os.environ["ROUTING_AGENT_PORT"],
     },
 ]
 
 server_procs = []
+
 
 async def wait_for_server_ready(server, timeout=30):
     async with httpx.AsyncClient() as client:
@@ -50,6 +52,7 @@ async def wait_for_server_ready(server, timeout=30):
                 return False
             await asyncio.sleep(1)
 
+
 def stream_subprocess_output(process):
     while True:
         line = process.stdout.readline()
@@ -60,7 +63,9 @@ def stream_subprocess_output(process):
 
 async def run_client_main():
     from client import main as client_main
+
     await client_main()
+
 
 async def main():
     print("🚀 Starting server subprocesses...")
@@ -75,9 +80,9 @@ async def main():
             "--port",
             str(server["port"]),
             "--log-level",
-            "info"
+            "info",
         ]
-        
+
         print(f"🚀 Starting {server['name']} on port {server['port']}")
         process = subprocess.Popen(
             cmd,
@@ -89,7 +94,9 @@ async def main():
         )
         server_procs.append(process)
 
-        thread = threading.Thread(target=stream_subprocess_output, args=(process,), daemon=True)
+        thread = threading.Thread(
+            target=stream_subprocess_output, args=(process,), daemon=True
+        )
         thread.start()
 
         ready = await wait_for_server_ready(server)
@@ -115,6 +122,7 @@ async def main():
                     process.wait(timeout=5)
                 except subprocess.TimeoutExpired:
                     process.kill()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
