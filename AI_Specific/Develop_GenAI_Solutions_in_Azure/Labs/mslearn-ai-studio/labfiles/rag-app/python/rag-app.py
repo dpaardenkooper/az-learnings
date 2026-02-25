@@ -1,10 +1,12 @@
 import os
+
 from dotenv import load_dotenv
 from openai import AzureOpenAI
 
+
 def main():
     # Clear the console
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
     try:
         # Get configuration settings
@@ -17,18 +19,19 @@ def main():
         search_key = os.getenv("SEARCH_KEY")
         index_name = os.getenv("INDEX_NAME")
 
-
         # Get an Azure OpenAI chat client
         chat_client = AzureOpenAI(
-            api_version = "2024-12-01-preview",
-            azure_endpoint = open_ai_endpoint,
-            api_key = open_ai_key
+            api_version="2024-12-01-preview",
+            azure_endpoint=open_ai_endpoint,
+            api_key=open_ai_key,
         )
-
 
         # Initialize prompt with system message
         prompt = [
-            {"role": "system", "content": "You are a travel assistant that provides information on travel services available from Margie's Travel."}
+            {
+                "role": "system",
+                "content": "You are a travel assistant that provides information on travel services available from Margie's Travel.",
+            }
         ]
 
         # Loop until the user types 'quit'
@@ -63,16 +66,14 @@ def main():
                                 "type": "deployment_name",
                                 "deployment_name": embedding_model,
                             },
-                        }
+                        },
                     }
                 ],
             }
 
             # Submit the prompt with the data source options and display the response
             response = chat_client.chat.completions.create(
-                model=chat_model,
-                messages=prompt,
-                extra_body=rag_params
+                model=chat_model, messages=prompt, extra_body=rag_params
             )
             completion = response.choices[0].message.content
             print(completion)
@@ -83,5 +84,6 @@ def main():
     except Exception as ex:
         print(ex)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
