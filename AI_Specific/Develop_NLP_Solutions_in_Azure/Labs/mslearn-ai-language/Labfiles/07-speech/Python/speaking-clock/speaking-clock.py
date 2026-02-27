@@ -1,47 +1,46 @@
-from dotenv import load_dotenv
-from datetime import datetime
 import os
+from datetime import datetime
 
+import azure.cognitiveservices.speech as speech_sdk
 # Import namespaces
 from azure.core.credentials import AzureKeyCredential
-import azure.cognitiveservices.speech as speech_sdk
+from dotenv import load_dotenv
 
 
 def main():
 
     # Clear the console
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
     try:
         global speech_config
 
         # Get config settings
         load_dotenv()
-        speech_key = os.getenv('KEY')
-        speech_region = os.getenv('REGION')
+        speech_key = os.getenv("KEY")
+        speech_region = os.getenv("REGION")
 
         # Configure speech service
         speech_config = speech_sdk.SpeechConfig(speech_key, speech_region)
-        print('Ready to use speech service in:', speech_config.region)
-        
+        print("Ready to use speech service in:", speech_config.region)
 
         # Get spoken input
         command = TranscribeCommand()
-        if command.lower() == 'what time is it?':
+        if command.lower() == "what time is it?":
             TellTime()
 
     except Exception as ex:
         print(ex)
 
+
 def TranscribeCommand():
-    command = ''
+    command = ""
 
     # Configure speech recognition
     current_dir = os.getcwd()
-    audioFile = current_dir + '/time.wav'
+    audioFile = current_dir + "/time.wav"
     audio_config = speech_sdk.AudioConfig(filename=audioFile)
     speech_recognizer = speech_sdk.SpeechRecognizer(speech_config, audio_config)
-
 
     # Process speech input
     print("Listening...")
@@ -56,22 +55,22 @@ def TranscribeCommand():
             print(cancellation.reason)
             print(cancellation.error_details)
 
-
     # Return the command
     return command
 
 
 def TellTime():
     now = datetime.now()
-    response_text = 'The time is {}:{:02d}'.format(now.hour,now.minute)
-
+    response_text = "The time is {}:{:02d}".format(now.hour, now.minute)
 
     # Configure speech synthesis
     output_file = "output.wav"
     speech_config.speech_synthesis_voice_name = "en-GB-RyanNeural"
     audio_config = speech_sdk.audio.AudioConfig(filename=output_file)
-    speech_synthesizer = speech_sdk.SpeechSynthesizer(speech_config, audio_config,)
-    
+    speech_synthesizer = speech_sdk.SpeechSynthesizer(
+        speech_config,
+        audio_config,
+    )
 
     # Synthesize spoken output
     speak = speech_synthesizer.speak_text_async(response_text).get()
@@ -79,7 +78,6 @@ def TellTime():
         print(speak.reason)
     else:
         print("Spoken output saved in " + output_file)
-
 
     # Print the response
     print(response_text)
