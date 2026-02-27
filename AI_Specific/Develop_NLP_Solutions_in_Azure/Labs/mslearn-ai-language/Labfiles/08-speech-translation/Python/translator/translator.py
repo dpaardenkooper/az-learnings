@@ -1,10 +1,10 @@
-from dotenv import load_dotenv
-from datetime import datetime
 import os
+from datetime import datetime
 
+import azure.cognitiveservices.speech as speech_sdk
 # Import namespaces
 from azure.core.credentials import AzureKeyCredential
-import azure.cognitiveservices.speech as speech_sdk
+from dotenv import load_dotenv
 
 
 def main():
@@ -14,57 +14,60 @@ def main():
 
         # Get Configuration Settings
         load_dotenv()
-        speech_key = os.getenv('KEY')
-        speech_region = os.getenv('REGION')
+        speech_key = os.getenv("KEY")
+        speech_region = os.getenv("REGION")
 
         # Configure translation
-        translation_config = speech_sdk.translation.SpeechTranslationConfig(speech_key, speech_region)
-        translation_config.speech_recognition_language = 'en-US'
-        translation_config.add_target_language('fr')
-        translation_config.add_target_language('es')
-        translation_config.add_target_language('hi')
-        print('Ready to translate from',translation_config.speech_recognition_language)
-
+        translation_config = speech_sdk.translation.SpeechTranslationConfig(
+            speech_key, speech_region
+        )
+        translation_config.speech_recognition_language = "en-US"
+        translation_config.add_target_language("fr")
+        translation_config.add_target_language("es")
+        translation_config.add_target_language("hi")
+        print("Ready to translate from", translation_config.speech_recognition_language)
 
         # Configure speech
         speech_config = speech_sdk.SpeechConfig(speech_key, speech_region)
-        print('Ready to use speech service in:', speech_config.region)
-
+        print("Ready to use speech service in:", speech_config.region)
 
         # Get user input
-        targetLanguage = ''
-        while targetLanguage != 'quit':
-            targetLanguage = input('\nEnter a target language\n fr = French\n es = Spanish\n hi = Hindi\n Enter anything else to stop\n').lower()
+        targetLanguage = ""
+        while targetLanguage != "quit":
+            targetLanguage = input(
+                "\nEnter a target language\n fr = French\n es = Spanish\n hi = Hindi\n Enter anything else to stop\n"
+            ).lower()
             if targetLanguage in translation_config.target_languages:
                 Translate(targetLanguage)
             else:
-                targetLanguage = 'quit'
-                
+                targetLanguage = "quit"
 
     except Exception as ex:
         print(ex)
 
+
 def Translate(targetLanguage):
-    translation = ''
+    translation = ""
 
     # Translate speech
     current_dir = os.getcwd()
-    audioFile = current_dir + '/station.wav'
+    audioFile = current_dir + "/station.wav"
     audio_config_in = speech_sdk.AudioConfig(filename=audioFile)
-    translator = speech_sdk.translation.TranslationRecognizer(translation_config, audio_config = audio_config_in)
+    translator = speech_sdk.translation.TranslationRecognizer(
+        translation_config, audio_config=audio_config_in
+    )
     print("Getting speech from file...")
     result = translator.recognize_once_async().get()
     print('Translating "{}"'.format(result.text))
     translation = result.translations[targetLanguage]
     print(translation)
 
-
     # Synthesize translation
     output_file = "output.wav"
     voices = {
-            "fr": "fr-FR-HenriNeural",
-            "es": "es-ES-ElviraNeural",
-            "hi": "hi-IN-MadhurNeural"
+        "fr": "fr-FR-HenriNeural",
+        "es": "es-ES-ElviraNeural",
+        "hi": "hi-IN-MadhurNeural",
     }
     speech_config.speech_synthesis_voice_name = voices.get(targetLanguage)
     audio_config_out = speech_sdk.audio.AudioConfig(filename=output_file)
@@ -74,7 +77,6 @@ def Translate(targetLanguage):
         print(speak.reason)
     else:
         print("Spoken output saved in " + output_file)
-
 
 
 if __name__ == "__main__":
