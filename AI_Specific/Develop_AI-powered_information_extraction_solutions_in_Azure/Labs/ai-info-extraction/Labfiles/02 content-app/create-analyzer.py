@@ -1,32 +1,33 @@
-from dotenv import load_dotenv
+import json
 import os
 import sys
 import time
+
 import requests
-import json
+from dotenv import load_dotenv
 
 
 def main():
 
     # Clear the console
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
     try:
 
         # Get the business card schema
         with open("biz-card.json", "r") as file:
             schema_json = json.load(file)
-        
+
         card_schema = json.dumps(schema_json)
 
         # Get config settings
         load_dotenv()
-        ai_svc_endpoint = os.getenv('ENDPOINT')
-        ai_svc_key = os.getenv('KEY')
-        analyzer = os.getenv('ANALYZER_NAME')
+        ai_svc_endpoint = os.getenv("ENDPOINT")
+        ai_svc_key = os.getenv("KEY")
+        analyzer = os.getenv("ANALYZER_NAME")
 
         # Create the analyzer
-        create_analyzer (card_schema, analyzer, ai_svc_endpoint, ai_svc_key)
+        create_analyzer(card_schema, analyzer, ai_svc_endpoint, ai_svc_key)
 
         print("\n")
 
@@ -34,21 +35,20 @@ def main():
         print(ex)
 
 
+def create_analyzer(schema, analyzer, endpoint, key):
 
-def create_analyzer (schema, analyzer, endpoint, key):
-    
     # Create a Content Understanding analyzer
-    print (f"Creating {analyzer}")
+    print(f"Creating {analyzer}")
 
     # Set the API version
     CU_VERSION = "2025-05-01-preview"
 
     # initiate the analyzer creation operation
-    headers = {
-        "Ocp-Apim-Subscription-Key": key,
-        "Content-Type": "application/json"}
+    headers = {"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/json"}
 
-    url = f"{endpoint}/contentunderstanding/analyzers/{analyzer}?api-version={CU_VERSION}"
+    url = (
+        f"{endpoint}/contentunderstanding/analyzers/{analyzer}?api-version={CU_VERSION}"
+    )
 
     # Delete the analyzer if it already exists
     response = requests.delete(url, headers=headers)
@@ -83,4 +83,4 @@ def create_analyzer (schema, analyzer, endpoint, key):
 
 
 if __name__ == "__main__":
-    main()        
+    main()
