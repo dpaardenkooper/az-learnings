@@ -2,7 +2,8 @@
 
 Reintroduced to allow hatchling to detect the package under src/ for building wheels/editable installs.
 """
-from importlib.metadata import version, PackageNotFoundError
+
+from importlib.metadata import PackageNotFoundError, version
 
 try:  # pragma: no cover - simple metadata fetch
     __version__ = version("real-time-voice")

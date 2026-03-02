@@ -21,10 +21,16 @@ dependencies = [
     "urllib3==2.4.0",
     "azure-ai-voicelive==1.0.0b5",
     "Flask>=3.0.0,<4.0.0",
+    "black (>=26.1.0,<27.0.0)",
+    "flake8-black (>=0.4.0,<0.5.0)",
+    "isort (>=8.0.1,<9.0.0)",
 ]
 
+[tool.poetry]
+package-mode = false
+
 [project.scripts]
-# Short names for uv run 
+# Short names for uv run
 web = "src.flask_app:main"
 
 [build-system]
