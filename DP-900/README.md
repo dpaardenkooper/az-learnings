@@ -1,6 +1,6 @@
 Hi there!
 
-Here in this repo you can find the shared links, which was covered in the AZ-900 training, per module!
+Here in this repo you can find the shared links, which was covered in the DP-900 training, per module!
 
 If you want to have more practical information, check the links below:
 <br>
@@ -18,7 +18,7 @@ If you want to have more practical information, check the links below:
 
 **Learning from video's**
 - [Introduction – DP-900 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=dp-900)
-- [AZ-900 Azure Fundamentals Certification Course](https://www.youtube.com/watch?v=iyloGFjdlm0&list=PLhLKc18P9YODENOj4F2nHbNXeYwY1zYGb)
+- [DP-900 Azure Fundamentals Certification Course](https://www.youtube.com/watch?v=iyloGFjdlm0&list=PLhLKc18P9YODENOj4F2nHbNXeYwY1zYGb)
 
 <br>
 

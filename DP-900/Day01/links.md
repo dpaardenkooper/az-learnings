@@ -39,6 +39,8 @@ https://learn.microsoft.com/en-us/training/courses/dp-900t00
 - [Describe Azure services for open-source databases](https://learn.microsoft.com/en-gb/training/modules/explore-provision-deploy-relational-database-offerings-azure/3-azure-database-open-source)
 - [Database and data platform feature comparison](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-stores-getting-started#database-and-data-platform-feature-comparison)
 
+<br>
+
 <B>Labs</B>
 - [Lab01a - Explore Azure SQL Database](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-01-sql-lab.html)
 - [Lab01b - Explore Azure Database for PostgreSQL](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-01a-postgresql-lab.html)
@@ -93,6 +95,8 @@ https://learn.microsoft.com/en-us/training/courses/dp-900t00
 - [https://learn.microsoft.com/en-gb/training/modules/explore-fundamentals-data-visualization/2-power-bi](https://learn.microsoft.com/en-gb/training/modules/explore-fundamentals-data-visualization/2-power-bi)
 - [Describe core concepts of data modeling](https://learn.microsoft.com/en-gb/training/modules/explore-fundamentals-data-visualization/3-data-modeling)
 - [Describe considerations for data visualization](https://learn.microsoft.com/en-gb/training/modules/explore-fundamentals-data-visualization/4-data-visualizations)
+
+<br>
 
 <B>Labs</B>
 - [Lab04 - EExplore data analytics in Microsoft Fabric](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-04b-fabric-lake-lab.html)
