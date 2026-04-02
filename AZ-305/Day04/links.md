@@ -81,8 +81,6 @@ https://learn.microsoft.com/en-gb/training/courses/az-140t00?WT.mc_id=ilt_partne
 - [Recommendations for designing a disaster recovery strategy](https://learn.microsoft.com/azure/well-architected/reliability/disaster-recovery)
 - [Availability set overview](https://learn.microsoft.com/en-us/azure/virtual-machines/availability-set-overview)
 - [Design considerations](https://learn.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/business-continuity-and-disaster-recovery)
-- []()
-- []()
 
 <br>
 
