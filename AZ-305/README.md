@@ -18,8 +18,8 @@ If you want to have more practical information, check the links below:
 
 **Learning from video's**
 - [Introduction – AZ-305 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/preparing-for-az-305-01-fy25)
-- [AZ-900 Azure Fundamentals Study Cram](https://www.youtube.com/watch?v=vq9LuCM4YP4&list=PLlVtbbG169nHSnaP4ae33yQUI3zcmP5nP)
-- [Microsoft Learn course material](hhttps://www.youtube.com/playlist?list=PLahhVEj9XNTejs0fgXT6HXaj_a_qsUoKa)
+- [AZ-305 AZ-305 Designing Microsoft Azure Infrastructure Solutions Study Cram](https://www.youtube.com/watch?v=vq9LuCM4YP4&list=PLlVtbbG169nHSnaP4ae33yQUI3zcmP5nP)
+- [Microsoft Learn course material](https://www.youtube.com/playlist?list=PLahhVEj9XNTejs0fgXT6HXaj_a_qsUoKa)
 
 <br>
 
