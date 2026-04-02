@@ -98,9 +98,9 @@ https://learn.microsoft.com/en-us/training/courses/dp-900t00
 
 <br>
 
-<B>Labs</B>
+<B>Otional Labs (requires Extra Licenses)</B>
 - [Lab04 - EExplore data analytics in Microsoft Fabric](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-04b-fabric-lake-lab.html)
-- [Explore real-time analytics in Microsoft Fabric](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05c-fabric-realtime-lab.html)
-- [Explore fundamentals of data visualization with Power BI](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-pbi-06-lab.html)
+- [Lab05 - Explore real-time analytics in Microsoft Fabric](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05c-fabric-realtime-lab.html)
+- [Lab06 - Explore fundamentals of data visualization with Power BI](https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-pbi-06-lab.html)
 
 ---
