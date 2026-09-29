@@ -150,7 +150,6 @@ https://learn.microsoft.com/en-us/training/courses/sc-500t00?WT.mc_id=ilt_partne
 - [Azure custom roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
 - [Create a custom role in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/custom-create?tabs=admin-center)
 - [What are access reviews?](https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview)
-- []()
 
 <br>
 
