@@ -80,6 +80,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-500t00?WT.mc_id=ilt_partne
 
 <B>Labs</B>
 - [Secure-AKS-Defender](https://github.com/MicrosoftLearning/mslearn-sec-identity/blob/master/Instructions/Labs/Lab-4B-Secure-AKS-Defender.md)
+- [Secure-Azure-Apps-Svc](https://github.com/MicrosoftLearning/mslearn-sec-identity/blob/master/Instructions/Labs/Lab-4C-Secure-Azure-Apps-Svc.md)
 
 <br>
 <br>
@@ -179,7 +180,7 @@ https://learn.microsoft.com/en-us/training/courses/sc-500t00?WT.mc_id=ilt_partne
 <br>
 
 <B>Labs</B>
-- [Secure-Database](https://github.com/MicrosoftLearning/mslearn-sec-identity/blob/master/Instructions/Labs/Lab-2B-Secure-Database.md)
+- [Defender-CSPM](https://github.com/MicrosoftLearning/mslearn-sec-identity/blob/master/Instructions/Labs/Lab-4D-Defender-CSPM.md)
 
 <br>
 <br>
@@ -298,7 +299,6 @@ https://learn.microsoft.com/en-us/training/courses/sc-500t00?WT.mc_id=ilt_partne
 - [Privacy and data security in Microsoft Security Copilot](https://learn.microsoft.com/en-us/copilot/security/privacy-data-security)
 - [Manage security compute unit usage in Security Copilot](https://learn.microsoft.com/en-us/copilot/security/manage-usage)
 - [Configure Copilot settings with the owner role](https://learn.microsoft.com/en-us/copilot/security/owner-settings)
-- []()
 
 <br>
 
