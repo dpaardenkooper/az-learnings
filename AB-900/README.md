@@ -17,7 +17,7 @@ If you want to have more practical information, check the links below:
 
 **Learning from video's**
 - [Introduction – AB-900 Certification Course](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/?terms=ab-900)
-- [AAB-900 Study Cram - Microsoft 365 Certified: Copilot and Agent Administration Fundamentals](https://www.youtube.com/watch?v=DUydgD7SkEo)
+- [AB-900 Study Cram - Microsoft 365 Certified: Copilot and Agent Administration Fundamentals](https://www.youtube.com/watch?v=DUydgD7SkEo)
 
 <br>
 
