@@ -11,8 +11,7 @@ https://learn.microsoft.com/en-us/training/courses/ab-731t00
 - [Module](https://learn.microsoft.com/en-us/training/paths/explore-business-value-generative-ai-solutions/)
 
 <B>M01-01 Understand the foundations of generative AI for business leaders</B>
-- [Explore the business value of generative AI solutions]()
-- [](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/3-explore-business-value-generative-ai-solutions)
+- [Explore the business value of generative AI solutions](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/3-explore-business-value-generative-ai-solutions)
 - [Understand generative AI models](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/4-understand-generative-ai-models)
 - [Understand cost drivers in generative AI](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/5-understand-cost-drivers-generative-ai)
 - [Identify challenges and opportunities in generative AI](https://learn.microsoft.com/en-us/training/modules/understand-foundations-generative-ai-business-leaders/6-identify-challenges-opportunities-generative-ai)
