@@ -24,13 +24,6 @@ https://learn.microsoft.com/en-us/training/courses/ab-730t00
 - [Streamline meeting preparation and follow ups with Copilot](https://learn.microsoft.com/en-us/training/modules/manage-meetings-collaboration/2-streamline-meeting-prep)
 - [Chat with Copilot in Outlook](https://support.microsoft.com/en-gb/outlook/copilot-outlook/chat-with-copilot-in-outlook)
 - [Enhance collaboration with Copilot Chat, Pages, and Notebooks](https://learn.microsoft.com/en-us/training/modules/manage-meetings-collaboration/3-enhance-collaboration-chat-pages-notebooks)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
 
 <br>
 
