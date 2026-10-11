@@ -5,7 +5,7 @@ Links that where shared during the course:
 ## Course Syllabus
 https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/
 
-<br>
+<br> 
 
 ### Monitor, evaluate, and operate multi-agent AI solutions in Azure
 - [Module](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/)
