@@ -5,7 +5,7 @@ Links that where shared during the course:
 ## Course Syllabus
 https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/
 
-<br>
+<br> 
 
 ### Deploy and govern enterprise agentic AI solutions on Azure
 - [Module](https://learn.microsoft.com/en-us/training/paths/aaai-2-build-production-grade-multi-agent-capabilities-microsoft-foundry/)
